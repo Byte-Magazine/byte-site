@@ -2,29 +2,30 @@
     --ifm-font-family-base: 'Vazirmatn', sans-serif;
     --ifm-code-font-size: 95%;
     --dark-mode-invert: none;
-
-    --ifm-color-primary: hsl(203, 100%, 44%);
-    --ifm-color-primary-dark: hsl(203, 100%, 40%);
-    --ifm-color-primary-darker: hsl(203, 100%, 36%);
-    --ifm-color-primary-darkest: hsl(203, 100%, 28%);
-    --ifm-color-primary-light: hsl(203, 100%, 48%);
-    --ifm-color-primary-lighter: hsl(203, 100%, 52%);
-    --ifm-color-primary-lightest: hsl(203, 100%, 56%);
+    --ifm-background-color: #f5f7fa;
+    --ifm-color-primary: #5C81E6;
+    --ifm-color-primary-dark: #4F72D2;
+    --ifm-color-primary-darker: #4263BE;
+    --ifm-color-primary-darkest: #3755A8;
+    --ifm-color-primary-light: #6F95EB;
+    --ifm-color-primary-lighter: #7FA3F0;
+    --ifm-color-primary-lightest: #8FB1F5;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 [data-theme="dark"] {
     --dark-mode-invert: invert();
-
-    --ifm-color-primary: hsl(175, 58%, 51%);
-    --ifm-color-primary-dark: hsl(175, 58%, 46%);
-    --ifm-color-primary-darker: hsl(175, 58%, 40%);
-    --ifm-color-primary-darkest: hsl(175, 58%, 36%);
-    --ifm-color-primary-light: hsl(175, 58%, 54%);
-    --ifm-color-primary-lighter: hsl(175, 58%, 58%);
-    --ifm-color-primary-lightest: hsl(175, 58%, 62%);
+    --ifm-background-color: #1e1f26;
+    --ifm-color-primary: #6D92F8;
+    --ifm-color-primary-dark: #5f84f0;
+    --ifm-color-primary-darker: #5076e8;
+    --ifm-color-primary-darkest: #3f62d0;
+    --ifm-color-primary-light: #7ca0f9;
+    --ifm-color-primary-lighter: #8cadaf9;
+    --ifm-color-primary-lightest: #9cbcff;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
 
 @font-face {
     font-family: 'Vazirmatn';

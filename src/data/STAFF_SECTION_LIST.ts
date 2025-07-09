@@ -22,7 +22,7 @@ const STAFF_SECTION_LIST: StaffSection[] = [
         staffList: [
             {
                 name: "امیرحسین شهیدی",
-                title: "ورودی ۱۴۰۱",
+                title: "ورودی ۱۴۰۱ کارشناسی",
                 email: "amirahsh@gmail.com",
                 imageURL: "/img/staff/ahsh.jpg",
                 socials: {
@@ -39,7 +39,7 @@ const STAFF_SECTION_LIST: StaffSection[] = [
         staffList: [
             {
                 name: "معین آعلی",
-                title: "ورودی ۱۴۰۱",
+                title: "ورودی ۱۴۰۱ کارشناسی",
                 email: "amirahsh@gmail.com",
                 imageURL: "/img/staff/moeein.jpg",
                 socials: {

@@ -92,26 +92,28 @@ const config: Config = {
     themeConfig: {
         image: "img/docusaurus-social-card.jpg",
         navbar: {
+            style: "dark",
             title: "نشریه‌ی علمی بایت",
             logo: {
                 alt: "logo",
-                src: "img/logo.png",
+                src: "img/logo.svg",
             },
             items: [
-                {to: "/mags/intro", label: "نشریه", position: "left"},
                 {to: "/blog", label: "وبلاگ", position: "left"},
-                // {
-                //     href: "https://github.com/byte-magazine/byte-site",
-                //     label: "GitHub",
-                //     position: "right",
-                // },
+                {to: "/mags/intro", label: "آرشیو نشریه", position: "left"},
+                {
+                    href: "https://github.com/byte-magazine/byte-site",
+                    label: "GitHub",
+                    position: "right",
+                },
                 {
                     to: "/staff",
                     label: "اعضا",
-                    position: "right",
+                    position: "left",
                 },
             ],
         },
+
         footer: {
             style: "dark",
             copyright: `© نشریه‌ی علمی بایت - دانشکده مهندسی کامپیوتر - دانشگاه صنعتی شریف`,

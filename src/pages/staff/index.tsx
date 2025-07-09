@@ -8,7 +8,7 @@ import "@site/src/css/toggle.css";
 import StaffCard from "@site/src/components/StaffCard";
 
 const title = "اعضای نشریه";
-const desc = "معرفی و راه‌های ارتباطی اعضای نشریه علمی بایت";
+const desc = "معرفی و راه‌های ارتباطی";
 
 
 export default function StaffPage() {
