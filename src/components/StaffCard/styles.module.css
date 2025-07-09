@@ -1,0 +1,19 @@
+.blogAuthor img[class~="avatar__photo"] {
+    width: 6rem;
+    height: 6rem;
+}
+
+.blogAuthor div[class~="avatar__intro"] {
+    padding-bottom: 24px;
+}
+
+.email {
+    margin-top: -32px;
+    padding-left: calc(7rem - 4px);
+    direction: rtl;
+    color: var(--ifm-color-emphasis-700);
+    font-size: small;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+}

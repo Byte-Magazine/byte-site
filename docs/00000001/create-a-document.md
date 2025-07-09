@@ -50,7 +50,7 @@ export default {
     {
       type: "category",
       label: "Tutorial",
-      items: ["tutorial-basics/create-a-document"],
+      items: ["00000001/create-a-document"],
     },
   ],
 };
