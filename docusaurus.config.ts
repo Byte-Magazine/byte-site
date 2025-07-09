@@ -1,3 +1,6 @@
+import rehypeKatex from 'rehype-katex';
+import remarkMath from 'remark-math';
+
 import {themes as prismThemes} from "prism-react-renderer";
 import type {Config} from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
@@ -36,11 +39,11 @@ const config: Config = {
         [
             "classic",
             {
-                docs: {
-                    sidebarPath: "./sidebars.ts",
-                    editUrl:
-                        "https://github.com/Byte-Magazine/byte-site/tree/main/",
-                },
+                // docs: {
+                //     sidebarPath: "./sidebars.ts",
+                //     editUrl:
+                //         "https://github.com/Byte-Magazine/byte-site/tree/main/",
+                // },
                 blog: {
                     blogTitle: 'وبلاگ',
                     blogDescription: 'وبلاگ نشریه‌ی بایت',
@@ -64,6 +67,22 @@ const config: Config = {
             } satisfies Preset.Options,
         ],
     ],
+    plugins: [
+        [
+            '@docusaurus/plugin-content-docs',
+            {
+                id: 'mags',
+                path: 'mags',
+                routeBasePath: 'mags',
+                sidebarPath: require.resolve('./sidebarsMags.js'),
+                remarkPlugins: [remarkMath],
+                rehypePlugins: [rehypeKatex],
+                showLastUpdateAuthor: true,
+                showLastUpdateTime: true,
+            },
+        ],
+
+    ],
 
     themeConfig: {
         image: "img/docusaurus-social-card.jpg",
@@ -74,12 +93,7 @@ const config: Config = {
                 src: "img/logo.png",
             },
             items: [
-                {
-                    type: "docSidebar",
-                    sidebarId: "tutorialSidebar",
-                    position: "left",
-                    label: "نشریه",
-                },
+                {to: "/mags/intro", label: "نشریه", position: "left"},
                 {to: "/blog", label: "وبلاگ", position: "left"},
                 // {
                 //     href: "https://github.com/byte-magazine/byte-site",

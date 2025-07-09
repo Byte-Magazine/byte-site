@@ -8,13 +8,13 @@ const featureList = [
         title: "00000001",
         imageSrc: "/img/00000001.jpg",
         description: "",
-        link: "/docs/category/00000001",
+        link: "/mags/category/00000001",
     },
     {
         title: "00000010",
         imageSrc: "/img/00000010.jpg",
         description: "",
-        link: "/docs/category/00000010",
+        link: "/mags/category/00000010",
     },
 
 ];
