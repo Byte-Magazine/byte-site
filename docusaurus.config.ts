@@ -119,7 +119,7 @@ const config: Config = {
             copyright: `© نشریه‌ی علمی بایت - دانشکده مهندسی کامپیوتر - دانشگاه صنعتی شریف`,
         },
         prism: {
-            theme: prismThemes.github,
+            theme: prismThemes.dracula,
             darkTheme: prismThemes.dracula,
         },
     } satisfies Preset.ThemeConfig,
