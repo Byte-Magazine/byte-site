@@ -11,7 +11,6 @@
     margin-top: -32px;
     padding-left: calc(7rem - 4px);
     direction: rtl;
-    color: var(--ifm-color-emphasis-700);
     font-size: small;
     overflow: hidden;
     text-overflow: ellipsis;

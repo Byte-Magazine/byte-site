@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "نشریه‌ی علمی بایت",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.نشریه": {
+    "message": "نشریه",
+    "description": "Navbar item with label نشریه"
+  },
+  "item.label.وبلاگ": {
+    "message": "وبلاگ",
+    "description": "Navbar item with label وبلاگ"
+  },
+  "item.label.اعضا": {
+    "message": "اعضا",
+    "description": "Navbar item with label اعضا"
+  }
+}

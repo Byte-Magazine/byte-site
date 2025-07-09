@@ -83,13 +83,18 @@ const config: Config = {
         ],
 
     ],
-
+    stylesheets: [
+        {
+            href: '/css/custom.css',
+            type: 'text/css',
+        },
+    ],
     themeConfig: {
         image: "img/docusaurus-social-card.jpg",
         navbar: {
             title: "نشریه‌ی علمی بایت",
             logo: {
-                alt: "لوگو",
+                alt: "logo",
                 src: "img/logo.png",
             },
             items: [

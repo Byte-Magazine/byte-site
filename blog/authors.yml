@@ -1,8 +1,7 @@
 moeein:
   name: معین آعلی
   title: ورودی ۱۴۰۱ کارشناسی
-  url: mailto:moeeeinaali@gmail.com
-  image_url: https://github.com/moeeinaali.png
+  image_url: /img/staff/moeein.jpg
   page: true
   socials:
     linkedin: moeein
