@@ -1,8 +1,8 @@
-name: Deploy Docusaurus to GitHub Pages
+name: Deploy to Org GitHub Pages Repo
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   deploy:
@@ -23,9 +23,10 @@ jobs:
       - name: Build website
         run: npm run build
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy to external gh-pages repo
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          external_repository: Byte-Magazine/Byte-Magazine.github.io
           publish_dir: ./build
-
+          publish_branch: main
