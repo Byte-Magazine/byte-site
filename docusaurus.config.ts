@@ -14,8 +14,8 @@ const config: Config = {
     v4: true,
   },
 
-  url: "https://byte-mag.ir",
-  baseUrl: "/",
+  url: "https://Byte-Magazine.github.io",
+  baseUrl: "/byte-site/",
 
   organizationName: "Byte-Magazine",
   projectName: "byte-site",
