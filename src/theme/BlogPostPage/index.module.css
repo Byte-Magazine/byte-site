@@ -1,0 +1,174 @@
+.postHero {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.postHero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background: rgba(90, 90, 90, 0.7);
+}
+
+.postHeroOverlay {
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+  border-radius: 8px;
+  color: #fff;
+  max-width: 800px;
+  text-align: center;
+}
+
+.postTitle {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.postMeta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.postAuthors {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.postAuthor {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.postAuthorImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 0.1rem;
+  object-fit: cover;
+}
+
+.postAuthorText {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.postAuthorName {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 0.25rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.postAuthorLink {
+  text-decoration: none;
+}
+.postAuthorLink:hover {
+  text-decoration: underline;
+}
+
+.postAuthorTitle {
+  font-size: 0.7rem;
+  color: #fff;
+  margin-bottom: 0.25rem;
+  line-height: 1.2;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.postMetaInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  font-size: 0.9rem;
+  color: #fff;
+  align-items: center;
+}
+
+.postMetaRow {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.postDate,
+.postReadingTime {
+  color: #fff;
+}
+
+.postTags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.postTag {
+  background: #fff;
+  color: #1d428a;
+  font-size: 0.8rem;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-transform: lowercase;
+}
+
+.markdown {
+  max-width: 800px;
+  margin: 2rem auto;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .postTitle {
+    font-size: 1.6rem;
+    margin-bottom: 0.3em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .postAuthorImg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .postAuthorName {
+    font-size: 0.9rem;
+    margin-bottom: 0.1rem;
+  }
+
+  .postAuthorTitle {
+    font-size: 0.6rem;
+    margin-bottom: 0.1rem;
+  }
+
+  .postTag {
+    font-size: 0.7rem;
+    padding: 2px 4px;
+  }
+
+  .postMetaInfo {
+    font-size: 0.8rem;
+  }
+}

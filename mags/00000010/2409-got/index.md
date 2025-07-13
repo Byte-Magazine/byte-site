@@ -1,6 +1,6 @@
 ---
 title: "تیتر ۱"
-authors: Z. Yuan
+authors: ["Moeein", "Moeein"]
 ---
 
 # test
