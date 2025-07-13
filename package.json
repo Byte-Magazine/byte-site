@@ -15,7 +15,7 @@
     "typecheck": "tsc",
     "prepare": "husky install",
     "prettier": "npx prettier --write .",
-    "predeploy": "docusaurus build"`
+    "predeploy": "docusaurus build"
   },
   "dependencies": {
     "@docusaurus/core": "3.8.1",
