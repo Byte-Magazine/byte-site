@@ -1,0 +1,25 @@
+.wrapper {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.text {
+    color: var(--ifm-color-primary-light);
+}
+
+.tooltip {
+    position: absolute;
+    bottom: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--ifm-color-primary-darkest);
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.25rem;
+    white-space: nowrap;
+    z-index: 100;
+    opacity: 0.8;
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+}
