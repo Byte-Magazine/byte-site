@@ -39,3 +39,7 @@
 [class*="codeBlockTitle"] {
   text-align: right;
 }
+
+.katex-html{
+  display: none;
+}

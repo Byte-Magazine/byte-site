@@ -7,14 +7,20 @@ const featureList = [
   {
     title: "00000001",
     imageSrc: "/img/00000001.jpg",
-    description: "",
+    description: "اولین شماره نشریه‌ی بایت",
     link: "/mags/00000001",
   },
   {
     title: "00000010",
     imageSrc: "/img/00000010.jpg",
-    description: "",
+    description: "دومین شماره نشریه‌ی بایت",
     link: "/mags/00000010",
+  },
+  {
+    title: "00000011",
+    imageSrc: "/img/00000011.jpg",
+    description: "سومین شماره نشریه‌ی بایت",
+    link: "/mags/00000011",
   },
 ];
 
