@@ -11,6 +11,8 @@
     --ifm-color-primary-lighter: #7fa3f0;
     --ifm-color-primary-lightest: #8fb1f5;
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+    --primary-00000011: #D20404;
 }
 
 [data-theme="dark"] {
