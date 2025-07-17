@@ -1,0 +1,199 @@
+---
+title: "دانستنی‌ها"
+authors: ["Editorial"]
+---
+
+<style>
+  {`
+    .my-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1em; 
+    }
+    .my-section img { height: 10em; width: auto; object-fit: contain; }
+    @media (min-width: 768px) { /* md: */
+      .my-section { flex-direction: row; gap: 2rem; align-items: center; }
+      .my-section > div:first-child { flex: 1; }
+      .my-section > p:last-child {flex: 3;}
+      .my-section img { width: 90%; height: auto; }
+    }
+
+    .card-title {
+      font-size: 1.5rem; /* text-2xl */
+      line-height: 2rem;
+      font-weight: 800; /* font-extrabold */
+      color: #1d4ed8; /* text-blue-700 */
+      margin-bottom: 1rem; /* mb-4 */
+      text-align: center; /* text-center */
+    }
+    
+    @media (min-width: 768px) { /* md: */
+      .card-title {
+        font-size: 1.875rem; /* md:text-3xl */
+        line-height: 2.25rem;
+      }
+    }
+  
+    .paragraph-text {
+      color: #4b5563; /* text-gray-700 */
+      line-height: 1.625; /* leading-relaxed */
+      text-align: justify; /* text-justify */
+    }
+  
+    .highlight-semibold {
+      font-weight: 600; /* font-semibold */
+      color: #2563eb; /* text-blue-600 */
+    }
+  
+    .highlight-medium {
+      font-weight: 500; /* font-medium */
+      color: #3b82f6; /* text-blue-500 */
+    }
+  
+    .italic-text {
+      font-style: italic;
+    }
+  `}
+</style>
+
+:::tip[آیا می‌دانید]
+  <h2 className="card-title">
+    اولین ویروس، بی‌خطر بود!
+  </h2>
+  <p className="paragraph-text">
+    در سال ۱۹۷۱، اولین ویروس رایانه‌ای جهان ساخته شد. این ویروس که{' '}
+    <span className="highlight-semibold">Creeper</span> داشت، صرفاً به عنوان یک آزمایش طراحی شده بود تا
+    ببینند این ویروس چگونه بین رایانه‌ها پخش می‌شود.
+  </p>
+  <p className="paragraph-text italic-text">
+    عملکردش فقط این بود که پیامی نمایش دهد:{' '}
+    <span className="highlight-medium">«من Creeper هستم، اگه می‌تونی منو بگیر!»</span>
+  </p>
+  <p className="paragraph-text">
+    اولین ویروسی که واقعاً در فضای آزاد منتشر شد، ویروسی به نام{' '}
+    <span className="highlight-semibold">Brain</span> بود. این ویروس هم آسیبی نداشت، اما اولین ویروس
+    مخصوص رایانه‌های IBM PC به حساب می‌آمد.
+  </p>
+:::
+
+:::tip[آیا می‌دانید]
+  <h2 className="card-title">
+    تکنولوژی در خودروهای امروزی
+  </h2>
+  <div className="my-section">
+    <div style={{textAlign: 'center'}}>![](img/car.png)</div>
+    <p className="paragraph-text">
+      تعداد خطوط کد در یک خودروی معمولی از فیسبوک نیز بیشتر است.
+      امروزه خودروها به‌طور فزاینده‌ای به فناوری وابسته شده‌اند، از سامانه‌های
+      سرگرمی گرفته تا قابلیت‌های رانندگی خودکار، خودروها با
+      فناوری‌های پیشرفته‌ای به بازار عرضه
+      می‌شوند.
+      بازار خودرو امروزه بیش از هر زمانی به
+      فناوری وابسته شده است.
+    </p>
+  </div>
+:::
+
+:::tip[آیا می‌دانید]
+  <h2 className="card-title">
+    CAPTCHA
+  </h2>
+  <p className="paragraph-text">
+    CAPTCHA مخففی طولانی است.
+    این واژه مخفف عبارت: <br/>
+    <span className="highlight-semibold">“Completely Automatic Public Turing test to Tell Computers and Humans Apart”</span> <br/>
+    به معنای: «آزمون عمومی کاملاً خودکار تورینگ برای تشخیص انسان از رایانه» است.
+  </p>
+:::
+
+:::tip[آیا می‌دانید]
+  <h2 className="card-title">
+    آیا لوگوی فایرفاکس روباه است؟
+  </h2>
+  <div className="my-section">
+    <div style={{textAlign: 'center'}}>![](img/firefox.png)</div>
+    <p className="paragraph-text">
+      نشان مرورگر فایرفاکس در واقع تصویر روباه نیست! تا حدی هم درست است. بسیاری تصویر می کنند چون نام این مرورگر «Firefox» است، تصویر لوگو نیز باید روباه باشد.
+      این تصور هم درست و هم نادرست است؛ و البته تقصیر موزیلاست!
+      در حقیقت، حیوان پشمالوی موجود در لوگو در ابتدا یک پاندا قرمز بود. اما با گذر زمان، تیم سازنده مرورگر آن را «روباه» نامیدند.
+    </p>
+  </div>
+:::
+
+:::tip[آیا می‌دانید]
+  <h2 className="card-title">
+    اولین لوگوی اپل
+  </h2>
+  <div className="my-section">
+    <div style={{textAlign: 'center'}}>![](img/apple.png)</div>
+    <p className="paragraph-text">
+      نخستین لوگوی شرکت اپل چیزی نبود که انتظار دارید. در ابتدا، تصویر آیزاک نیوتن را نشان می‌داد که زیر درختی نشسته بود و سیبی در آستانه افتادن روی سرش قرار داشت.
+
+        لوگو در سال ۱۹۷۶ طراحی شد و عبارتی در حاشیه آن نوشته شده بود: **«نیوتن... ذهنی که تا ابد در دریاهای عجیبِ اندیشه سفر می‌کند... تنها».**
+    </p>
+  </div>
+:::
+
+:::tip[آیا می‌دانید]
+  <h2 className="card-title">
+    استفاده از PlayStation3، نه برای بازی!
+  </h2>
+  <div className="my-section">
+    <p className="paragraph-text">
+      دولت ایالات متحده از پلی‌استیشن ۳ استفاده می‌کرد اما نه برای بازی. در سال ۲۰۱۰، نیروی هوایی ایالات متحده از ۱۷۶۰ دستگاه پلی‌استیشن ۳ برای ساخت اَبَررایانه برای وزارت دفاع استفاده کرد. دلیل این انتخاب، صرفه جویی در هزینه، انرژی و سازگاری بیشتر آن با محیط زیست بود.
+    </p>
+  </div>
+:::
+
+:::tip[آیا می‌دانید]
+  <h2 className="card-title">
+    کبوتر یا اینترنت؟
+  </h2>
+  <div className="my-section">
+    <p className="paragraph-text">
+    تا سال ۲۰۱۰، کبوترهای نامه‌بر از اینترنت سریع‌تر بودند!
+
+    در یک آزمایش برای مقایسهٔ سرعت آپلود، یک کبوتر نامه‌بر با یک فلش USB حاوی  ۴ گیگابایت اطلاعات، مسافت ۵۰ مایل (۸۰ کیلومتر) پرواز کرد تا اطلاعات را به شرکت ارائه‌دهندهٔ اینترنت برساند و همان فایل از طریق اینترنت نیز ارسال شد. کبوتر در یک ساعت به مقصد رسید، اما آپلود بیش از دو ساعت طول کشید!
+    </p>
+  </div>
+:::
+
+:::tip[آیا می‌دانید]
+  <h2 className="card-title">
+    صفحه کلید QWERTY یا Dvorak؟
+  </h2>
+  <div className="my-section">
+    <div style={{textAlign: 'center'}}>![](img/keyboard.png)</div>
+    <p className="paragraph-text">
+      چیدمان QWERTY صفحه‌کلید در ابتدا برای کاهش سرعت تایپ طراحی شده بود. در دوران ابتدایی ماشین‌تحریر، تایپ سریع باعث گیر کردن دکمه‌ها می‌شد. چیدمان QWERTY با فاصله‌دادن میان حروف پرکاربرد، سرعت تایپ را کاهش می‌داد تا از گیر کردن کلیدها جلوگیری شود.
+      
+      اگر به‌دنبال یادگیری چیدمانی سریع‌تر هستید، صفحه‌کلید Dvorak برای سرعت بالا طراحی شده است.
+    </p>
+  </div>
+:::
+
+:::tip[آیا می‌دانید]
+  <h2 className="card-title">
+    ساعت آیفون
+  </h2>
+  <div className="my-section">
+    <div style={{textAlign: 'center'}}>![](img/iphone.png)</div>
+    <p className="paragraph-text">
+      در تمامی تبلیغات آیفون، ساعت **۹:۴۱** نمایش داده می‌شود. علت این موضوع آن است که در سال ۲۰۰۷، استیو جابز برای نخستین بار آیفون را در همین ساعت معرفی کرد. ارائه او دقیقاً ۴۱ دقیقه به‌طول انجامید و دقیقاً در ساعت **۹:۴۱** صبح، نخستین تصویر آیفون نمایش داده شد. از آن زمان، اغلب تصاویر تبلیغاتی آیفون با ساعت **۹:۴۱** همراه هستند.
+    </p>
+  </div>
+:::
+
+:::tip[آیا می‌دانید]
+  <h2 className="card-title">
+    گاراژ و شرکت‌های بزرگ
+  </h2>
+  <div className="my-section">
+    <p className="paragraph-text">
+      بیشتر شرکت‌های موفق امروزی فعالیت خود را از یک گاراژ آغاز کرده‌اند.
+      
+      جالب است بدانید که افزون بر شرکت اپل، شرکت‌های بزرگ دیگری مانند HP، گوگل و مایکروسافت نیز در ابتدا در یک گاراژ ساده تأسیس شده‌اند.
+    </p>
+  </div>
+:::
