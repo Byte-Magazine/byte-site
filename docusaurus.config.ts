@@ -6,7 +6,7 @@ import type {Config} from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-    title: "نشریه‌ی علمی بایت",
+    title: "نشریه‌ی علمی فرهنگی بایت",
     tagline: "دانشکده‌ی مهندسی کامپیوتر دانشگاه صنعتی شریف",
     favicon: "img/favicon.ico",
 
@@ -94,10 +94,10 @@ const config: Config = {
         }
     ],
     themeConfig: {
-        image: "img/docusaurus-social-card.jpg",
+        image: "img/social-card.jpg",
         navbar: {
             style: "dark",
-            title: "نشریه‌ی علمی بایت",
+            title: "نشریه‌ی علمی فرهنگی بایت",
             logo: {
                 alt: "logo",
                 src: "img/logo.svg",
@@ -120,7 +120,7 @@ const config: Config = {
 
         footer: {
             style: "dark",
-            copyright: `© نشریه‌ی علمی بایت - دانشکده مهندسی کامپیوتر - دانشگاه صنعتی شریف`,
+            copyright: `© نشریه‌ی علمی فرهنگی بایت - دانشکده مهندسی کامپیوتر - دانشگاه صنعتی شریف`,
         },
         prism: {
             theme: prismThemes.dracula,
