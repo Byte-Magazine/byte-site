@@ -66,5 +66,45 @@
     "image_url": "/img/authors/LeilaSadatAlavi.png",
     "socials": {
     }
+  },
+  "ArashShahhosseini": {
+    "name": "آرش شاه‌حسینی",
+    "title": "کارشناسی ۱۴۰۲",
+    "url": "mailto:",
+    "image_url": "/img/authors/ArashShahhosseini.png",
+    "socials": {
+    }
+  },
+  "AlirezaTofighi": {
+    "name": "علیرضا توفیقی",
+    "title": "کارشناسی علوم‌ کامپیوتر ۱۳۹۶",
+    "url": "mailto:",
+    "image_url": "/img/authors/AlirezaTofighi.png",
+    "socials": {
+    }
+  },
+  "dutchman": {
+    "name": "امیرمهدی کوششی",
+    "title": "کارشناسی ۱۳۹۸",
+    "url": "mailto:",
+    "image_url": "/img/authors/dutchman.png",
+    "socials": {
+    }
+  },
+  "MahdiAlinejad": {
+    "name": "مهدی علینژاد",
+    "title": "کارشناسی ۱۴۰۱",
+    "url": "mailto:",
+    "image_url": "/img/authors/MahdiAlinejad.png",
+    "socials": {
+    }
+  },
+  "RomanRodomansky": {
+    "name": "Roman Rodomansky",
+    "title": "هم\u200Cبنیان\u200Cگذار Relabs",
+    "url": "mailto:",
+    "image_url": "/img/authors/RomanRodomansky.png",
+    "socials": {
+    }
   }
 }
