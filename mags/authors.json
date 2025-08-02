@@ -2,11 +2,69 @@
   "Moeein": {
     "name": "معین آعلی",
     "title": "کارشناسی ۱۴۰۱",
-    "url": "https://github.com/moeeinaali",
+    "url": "mailto:moeeeinaali@gmail.com",
     "image_url": "/img/staff/moeein.jpg",
     "socials": {
       "github": "moeeinaali",
       "linkedin": "moeein"
+    }
+  },
+  "SParsaNeshaei": {
+    "name": "سید پارسا نشایی",
+    "title": "کارشناسی ۱۳۹۸",
+    "url": "mailto:spn2001@outlook.com",
+    "image_url": "/img/authors/SParsaNeshaei.jpg",
+    "socials": {
+      "github": "spneshaei",
+      "linkedin": "spneshaei"
+    }
+  },
+  "EmadEmamJome": {
+    "name": "عماد امام‌ جمعه",
+    "title": "کارشناسی ۱۴۰۰",
+    "url": "mailto:",
+    "image_url": "/img/authors/EmadEmamJome.png",
+    "socials": {
+    }
+  },
+  "ArvinTaheri": {
+    "name": "آروین طاهری",
+    "title": "کارشناسی ۱۴۰۲",
+    "url": "mailto:",
+    "image_url": "/img/authors/ArvinTaheri.png",
+    "socials": {
+    }
+  },
+  "MatinGhiasi": {
+    "name": "متین غیاثی",
+    "title": "کارشناسی ۱۴۰۲",
+    "url": "mailto:",
+    "image_url": "/img/authors/MatinGhiasi.png",
+    "socials": {
+    }
+  },
+  "SaeidForatiK": {
+    "name": "سعید فراتی کاشانی",
+    "title": "کارشناسی ۱۴۰۱",
+    "url": "mailto:",
+    "image_url": "/img/authors/SaeidForatiK.png",
+    "socials": {
+    }
+  },
+  "AmirHosseinShahidi": {
+    "name": "امیرحسین شهیدی",
+    "title": "کارشناسی ۱۴۰۱",
+    "url": "mailto:",
+    "image_url": "/img/staff/ahsh.jpg",
+    "socials": {
+    }
+  },
+  "LeilaSadatAlavi": {
+    "name": "لیلا سادات علوی",
+    "title": "کارشناسی ارشد نرم‌افزار ۱۴۰۱",
+    "url": "mailto:",
+    "image_url": "/img/authors/LeilaSadatAlavi.png",
+    "socials": {
     }
   }
 }

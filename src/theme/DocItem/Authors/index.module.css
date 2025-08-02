@@ -1,62 +1,76 @@
 .docAuthor {
-  display: flex;
-  align-items: center;
-  margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
 }
 
 .docAuthorImg {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  margin-right: 0.75rem;
-  object-fit: cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 0.75rem;
+    object-fit: cover;
 }
 
 .docAuthorName {
-  font-weight: 600;
-  font-size: 1rem;
-  margin-bottom: 0.25rem;
-  color: #111;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    color: var(--ifm-heading-color);
 }
 
 .docAuthorName a {
-  text-decoration: none;
-  color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 .docAuthorName a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .docAuthorTitle {
-  font-size: 0.85rem;
-  color: #555;
-  margin-bottom: 0.25rem;
-  line-height: 1.2;
+    font-size: 0.85rem;
+    color: var(--ifm-color-primary-light);
+    margin-bottom: 0.25rem;
+    line-height: 1.2;
 }
 
 .docAuthorDesc {
-  font-size: 0.85rem;
-  color: #333;
-  margin-bottom: 0.4rem;
-  line-height: 1.4;
+    font-size: 0.85rem;
+    color: #333;
+    margin-bottom: 0.4rem;
+    line-height: 1.4;
 }
 
 .docAuthorSocials {
-  display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-  align-items: center;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .docAuthorSocialLink {
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
-  color: inherit;
-  line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
 }
 
 .docAuthorSocialLink:hover {
-  color: var(--ifm-color-primary);
+    color: var(--ifm-color-primary);
+}
+
+.docAuthors {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:0rem
+}
+
+@media screen and (min-width: 800px) {
+    .docAuthors {
+        flex-direction: row;
+        gap:4rem
+    }
 }
