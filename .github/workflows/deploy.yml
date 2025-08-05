@@ -3,11 +3,13 @@ name: Deploy Workflow
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   deploy-pages:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
+    if: github.event_name == 'push'
 
     steps:
       - name: Checkout source
@@ -32,23 +34,10 @@ jobs:
           publish_dir: ./build
           publish_branch: main
 
-  wait-for-approval:
-    name: ✅ Approve Production Deploy
-    needs: deploy-pages
-    runs-on: ubuntu-latest
-    steps:
-      - name: Wait for manual approval
-        uses: trstringer/manual-approval@v1
-        with:
-          secret: ${{ secrets.GITHUB_TOKEN }}
-          approvers: moeeinaali
-          issue-title: "Approve production deploy"
-          issue-body: "The site is deployed to GitHub Pages. Approve to deploy to the production server."
-
   deploy-server:
     name: Deploy to Production Server
-    needs: wait-for-approval
     runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch'
 
     steps:
       - name: Setup SSH
