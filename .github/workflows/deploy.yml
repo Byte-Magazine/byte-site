@@ -48,7 +48,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 9011
           script: |
-            cd /byte-site
+            cd byte-site
             git pull origin main
             npm install
             npm run build
