@@ -54,9 +54,10 @@
   "AmirHosseinShahidi": {
     "name": "امیرحسین شهیدی",
     "title": "کارشناسی ۱۴۰۱",
-    "url": "mailto:",
+    "url": "mailto:amirahsh20041382@gmail.com",
     "image_url": "/img/staff/ahsh.jpg",
     "socials": {
+      "email": "amirahsh20041382@gmail.com"
     }
   },
   "LeilaSadatAlavi": {
@@ -78,33 +79,41 @@
   "AlirezaTofighi": {
     "name": "علیرضا توفیقی",
     "title": "کارشناسی علوم‌ کامپیوتر ۱۳۹۶",
-    "url": "mailto:",
+    "url": "#",
     "image_url": "/img/authors/AlirezaTofighi.png",
     "socials": {
+      "linkedin": "https://www.linkedin.com/in/atofighi/"
     }
   },
   "dutchman": {
     "name": "امیرمهدی کوششی",
     "title": "کارشناسی ۱۳۹۸",
-    "url": "mailto:",
+    "url": "mailto:amkamir96@gmail.com",
     "image_url": "/img/authors/dutchman.png",
     "socials": {
+      "github": "amkamir82",
+      "linkedin": "https://www.linkedin.com/in/amirmahdi-kousheshi-344326166/",
+      "email": "amkamir96@gmail.com"
     }
   },
   "MahdiAlinejad": {
     "name": "مهدی علینژاد",
     "title": "کارشناسی ۱۴۰۱",
-    "url": "mailto:",
+    "url": "mailto:mahdiali3804@gmail.com",
     "image_url": "/img/authors/MahdiAlinejad.png",
     "socials": {
+      "linkedin": "https://linkedin.com/in/mahdi-ali-nejad",
+      "github": "https://github.com/soilorian",
+      "email": "mahdiali3804@gmail.com"
     }
   },
   "RomanRodomansky": {
     "name": "Roman Rodomansky",
     "title": "هم\u200Cبنیان\u200Cگذار Relabs",
-    "url": "mailto:",
+    "url": "https://about.me/roman.rodomansky",
     "image_url": "/img/authors/RomanRodomansky.png",
     "socials": {
+      "linkedin": "https://www.linkedin.com/in/rodomansky/"
     }
   }
 }
