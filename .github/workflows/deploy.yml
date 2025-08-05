@@ -49,7 +49,10 @@ jobs:
           port: 9011
           script: |
             cd byte-site
+            source ~/.bashrc
             git pull origin main
+            node -v
+            npm -v
             npm install
             npm run build
             sudo systemctl reload nginx
