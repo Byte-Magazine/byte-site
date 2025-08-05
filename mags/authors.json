@@ -97,7 +97,7 @@
       "email": "amkamir96@gmail.com"
     }
   },
-  "MahdiAlinejad": {
+  "Alinejad": {
     "name": "مهدی علینژاد",
     "title": "کارشناسی ۱۴۰۱",
     "url": "mailto:mahdiali3804@gmail.com",
@@ -122,6 +122,30 @@
     "title": "کارشناسی ارشد ۱۴۰۱",
     "url": "#",
     "image_url": "/img/authors/AmirHosseinAnsari.png",
+    "socials": {
+    }
+  },
+  "MahdiSamiei": {
+    "name": "محمد مهدی سمیعی",
+    "title": "کارشناسی ۱۳۹۳",
+    "url": "#",
+    "image_url": "/img/authors/MahdiSamiei.png",
+    "socials": {
+    }
+  },
+  "MohammadMosayebi": {
+    "name": "محمد مصیبی",
+    "title": "کارشناسی ۱۳۹۹",
+    "url": "#",
+    "image_url": "/img/authors/MohammadMosayebi.png",
+    "socials": {
+    }
+  },
+  "MahdiBahreyni": {
+    "name": "مهدی بحرینی",
+    "title": "دکترا ۱۴۰۱",
+    "url": "#",
+    "image_url": "/img/authors/MahdiBahreyni.png",
     "socials": {
     }
   }
