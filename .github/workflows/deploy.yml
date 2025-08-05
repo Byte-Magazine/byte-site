@@ -1,11 +1,12 @@
-name: Deploy to Org GitHub Pages Repo
+name: Deploy Workflow
 
 on:
   push:
-    branches: [main]
+    branches: [ main ]
 
 jobs:
-  deploy:
+  deploy-pages:
+    name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
 
     steps:
@@ -23,10 +24,46 @@ jobs:
       - name: Build website
         run: npm run build
 
-      - name: Deploy to external gh-pages repo
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           external_repository: Byte-Magazine/Byte-Magazine.github.io
           publish_dir: ./build
           publish_branch: main
+
+  wait-for-approval:
+    name: ✅ Approve Production Deploy
+    needs: deploy-pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wait for manual approval
+        uses: trstringer/manual-approval@v1
+        with:
+          secret: ${{ secrets.GITHUB_TOKEN }}
+          approvers: moeeinaali
+          issue-title: "Approve production deploy"
+          issue-body: "The site is deployed to GitHub Pages. Approve to deploy to the production server."
+
+  deploy-server:
+    name: Deploy to Production Server
+    needs: wait-for-approval
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -H ${{ secrets.SERVER_IP }} >> ~/.ssh/known_hosts
+
+      - name: Deploy over SSH
+        run: |
+          ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }} << 'EOF'
+            cd /byte-site
+            git pull origin main
+            npm install
+            npm run build
+            sudo systemctl reload nginx
+          EOF
