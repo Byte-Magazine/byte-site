@@ -6,7 +6,8 @@
     "image_url": "/img/staff/moeein.jpg",
     "socials": {
       "github": "moeeinaali",
-      "linkedin": "moeein"
+      "linkedin": "moeein",
+      "email": "moeeeinaali@gmail.com"
     }
   },
   "SParsaNeshaei": {
@@ -114,6 +115,14 @@
     "image_url": "/img/authors/RomanRodomansky.png",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/rodomansky/"
+    }
+  },
+  "AmirHosseinAnsari": {
+    "name": "امیرحسین انصاری",
+    "title": "کارشناسی ارشد ۱۴۰۱",
+    "url": "#",
+    "image_url": "/img/authors/AmirHosseinAnsari.png",
+    "socials": {
     }
   }
 }
