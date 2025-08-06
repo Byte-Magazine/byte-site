@@ -54,10 +54,6 @@ const STAFF_SECTION_LIST: StaffSection[] = [
         email: "arman.tahmasebizadeh@gmail.com",
         imageURL: "/img/staff/ArmanTahmasbi.jpg",
         socials: {
-          github: "",
-          linkedin: "",
-          x: "",
-          website: "",
         },
       },
       {
@@ -66,10 +62,8 @@ const STAFF_SECTION_LIST: StaffSection[] = [
         email: "m1382a11n24@gmail.com",
         imageURL: "/img/staff/MahdiAlinejhad.jpg",
         socials: {
-          github: "Github.com/soilorian",
-          linkedin: "Https://www.linkedin.com/in/mahdi-alinejad-ba97b6256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-          x: "",
-          website: "",
+          github: "https://github.com/soilorian",
+          linkedin: "https://www.linkedin.com/in/mahdi-alinejad-ba97b6256",
         },
       },
       {
@@ -80,8 +74,6 @@ const STAFF_SECTION_LIST: StaffSection[] = [
         socials: {
           github: "https://github.com/ahmz1833",
           linkedin: "https://www.linkedin.com/in/ahmz1833/",
-          x: "",
-          website: "Option 1",
         },
       },
     ],
@@ -97,8 +89,6 @@ const STAFF_SECTION_LIST: StaffSection[] = [
         socials: {
           github: "https://github.com/Amir14Souri",
           linkedin: "https://linkedin.com/in/amirhossein-souri",
-          x: "",
-          website: "",
         },
       },
       {
@@ -107,9 +97,8 @@ const STAFF_SECTION_LIST: StaffSection[] = [
         email: "amirm137878@gmail.com",
         imageURL: "/img/staff/AmirMahdiNamjoo.jpg",
         socials: {
-          github: "http://github.com/titansarus/",
+          github: "https://github.com/titansarus/",
           linkedin: "https://www.linkedin.com/in/amirmahdi-namjoo-23b4b9192/",
-          x: "",
           website: "https://amirmahdinamjoo.com/",
         },
       },
@@ -136,10 +125,6 @@ const STAFF_SECTION_LIST: StaffSection[] = [
         email: "mohammad.moasayebi@gmail.com",
         imageURL: "/img/staff/MohammadMosayyebi.jpg",
         socials: {
-          github: "",
-          linkedin: "",
-          x: "",
-          website: "",
         },
       },
     ],
@@ -153,10 +138,9 @@ const STAFF_SECTION_LIST: StaffSection[] = [
         email: "aref.shahbakhsh1998@gmail.com",
         imageURL: "/img/staff/ArefShahbakhsh.jpg",
         socials: {
-          github: "github.com/Aref-Shahbakhsh",
-          linkedin: "www.linkedin.com/in/Aref-Shahbakhsh",
-          x: "",
-          website: "Aref-shahbakhsh.github.io",
+          github: "https://github.com/Aref-Shahbakhsh",
+          linkedin: "https://www.linkedin.com/in/Aref-Shahbakhsh",
+          website: "https://Aref-shahbakhsh.github.io",
         },
       },
       {
@@ -165,9 +149,7 @@ const STAFF_SECTION_LIST: StaffSection[] = [
         email: "amirhosein.ansari79@gmail.com",
         imageURL: "/img/staff/AmirHosseinAnsari.jpg",
         socials: {
-          github: "",
           linkedin: "https://www.linkedin.com/in/amir-hossein-ansari-b4bba5241",
-          x: "",
           website: "https://scholar.google.com/citations?hl=en&user=TyUGU_AAAAAJ",
         },
       },
