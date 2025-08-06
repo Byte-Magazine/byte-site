@@ -122,6 +122,16 @@ const STAFF_SECTION_LIST: StaffSection[] = [
                 imageURL: "/img/staff/MohammadMosayyebi.jpg",
                 socials: {},
             },
+            {
+                name: "امیررضا اینانلو",
+                title: "Amirreza Inanloo",
+                email: "amirreza.inanloo.sut@gmail.com",
+                imageURL: "/img/staff/AmirrezaInanloo.jpg",
+                socials: {
+                    github: "https://github.com/oAmirrezao",
+                    linkedin: "https://www.linkedin.com/in/amirreza-inanloo-00576425b",
+                },
+            },
         ],
     },
     {
@@ -146,6 +156,41 @@ const STAFF_SECTION_LIST: StaffSection[] = [
                 socials: {
                     linkedin: "https://www.linkedin.com/in/amir-hossein-ansari-b4bba5241",
                     website: "https://scholar.google.com/citations?hl=en&user=TyUGU_AAAAAJ",
+                },
+            },
+            {
+                name: "لیلا علوی",
+                title: "Leila Alavi",
+                email: "leilaalavitaba@gmail.com",
+                imageURL: "/img/staff/LeilaSadatAlavi.jpg",
+                socials: {
+                },
+            },
+            {
+                name: "امیرمهدی کوششی",
+                title: "Dutchman",
+                email: "amkamir96@gmail.com",
+                imageURL: "/img/staff/Dutchman.jpeg",
+                socials: {
+                    github: "https://github.com/amkamir82",
+                },
+            },
+            {
+                name: "عماد امام‌جمعه",
+                title: "Emad Emamojomeh",
+                email: "s.emad.emamjomeh@gmail.com",
+                imageURL: "/img/staff/EmadEmamJome.jpg",
+                socials: {
+                    github: "https://github.com/EmadEJ",
+                    linkedin: "https://www.linkedin.com/in/emad-emamjomeh/",
+                },
+            },
+            {
+                name: "بردیا رضائی کلانتری",
+                title: "bardia rezaei kalantari",
+                email: "bardiarezaeikalantari@gmail.com",
+                imageURL: "/img/authors/BardiaRezaei.jpg",
+                socials: {
                 },
             },
         ],
