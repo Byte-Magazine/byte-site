@@ -48,11 +48,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 9011
           script: |
-            cd byte-site
+            cd Byte-Magazine.github.io
             source ~/.bashrc
             git pull origin main
-            node -v
-            npm -v
-            npm install
-            npm run build
             sudo systemctl reload nginx

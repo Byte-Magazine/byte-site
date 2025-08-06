@@ -26,6 +26,7 @@
     "url": "mailto:",
     "image_url": "/img/authors/EmadEmamJome.png",
     "socials": {
+      "linkedin": "https://www.linkedin.com/in/emad-emamjomeh/"
     }
   },
   "ArvinTaheri": {
@@ -47,9 +48,12 @@
   "SaeidForatiK": {
     "name": "سعید فراتی کاشانی",
     "title": "کارشناسی ۱۴۰۱",
-    "url": "mailto:",
+    "url": "mailto:saeed.forati.k@gmail.com",
     "image_url": "/img/authors/SaeidForatiK.png",
     "socials": {
+      "github": "https://github.com/foratik",
+      "linkedin": "https://www.linkedin.com/in/saeed-foratikashani/",
+      "email": "saeed.forati.k@gmail.com"
     }
   },
   "AmirHosseinShahidi": {
@@ -120,9 +124,11 @@
   "AmirHosseinAnsari": {
     "name": "امیرحسین انصاری",
     "title": "کارشناسی ارشد ۱۴۰۱",
-    "url": "#",
+    "url": "https://scholar.google.com/citations?hl=en&user=TyUGU_AAAAAJ",
     "image_url": "/img/authors/AmirHosseinAnsari.png",
     "socials": {
+      "linkedin": "https://www.linkedin.com/in/amir-hossein-ansari-b4bba5241",
+      "email": "amirhosein.ansari79@gmail.com"
     }
   },
   "MahdiSamiei": {
@@ -171,9 +177,12 @@
   "AmirHosseinRazlighi": {
     "name": "امیرحسین رازلیقی",
     "title": "کارشناسی ۱۳۹۹",
-    "url": "#",
+    "url": "https://amirhossein-razlighi.github.io/",
     "image_url": "/img/authors/AmirHosseinRazlighi.png",
     "socials": {
+      "linkedin": "https://www.linkedin.com/in/amirhossein-razlighi/",
+      "email": "arazlighi@gmail.com",
+      "github": "https://github.com/amirhossein-razlighi"
     }
   }
 }
