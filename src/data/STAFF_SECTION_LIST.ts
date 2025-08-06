@@ -130,6 +130,18 @@ const STAFF_SECTION_LIST: StaffSection[] = [
           website: "",
         },
       },
+      {
+        name: "محمد مصیبی",
+        title: "Mohammad Mosayyebi",
+        email: "mohammad.moasayebi@gmail.com",
+        imageURL: "/img/staff/MohammadMosayyebi.jpg",
+        socials: {
+          github: "",
+          linkedin: "",
+          x: "",
+          website: "",
+        },
+      },
     ],
   },
   {

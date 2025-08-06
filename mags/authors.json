@@ -148,5 +148,29 @@
     "image_url": "/img/authors/MahdiBahreyni.png",
     "socials": {
     }
+  },
+  "BardiaRezaei": {
+    "name": "بردیا رضایی",
+    "title": "کارشناسی ۱۳۹۹",
+    "url": "#",
+    "image_url": "/img/authors/BardiaRezaei.jpg",
+    "socials": {
+    }
+  },
+  "MahdiBahramian": {
+    "name": "مهدی بهرامیان",
+    "title": "کارشناسی ۱۴۰۱",
+    "url": "#",
+    "image_url": "/img/authors/MahdiBahramian.jpg",
+    "socials": {
+    }
+  },
+  "AmirHosseinRazlighi": {
+    "name": "امیرحسین رازلیقی",
+    "title": "کارشناسی ۱۳۹۹",
+    "url": "#",
+    "image_url": "/img/authors/AmirHosseinRazlighi.png",
+    "socials": {
+    }
   }
 }
