@@ -8,7 +8,7 @@ export default function HomepageHeader({title, subtitle}) {
         <header className={clsx("hero hero--primary", styles.heroBanner)}>
             <div className="container">
                 <img src={"/img/logo-full.svg"} alt={"Byte Logo"} className={styles.logoFull} />
-                <Heading as="h1" className="hero__title">
+                <Heading style={{color:"var(--ifm-background-color)"}} as="h1" className="hero__title">
                     <span className={"font-dana"} style={{fontSize:"2.5rem"}}>نشریۀ علمی فرهنگی</span>
                     <span className={"font-snapp"}> بایت</span>
                     <br/>
