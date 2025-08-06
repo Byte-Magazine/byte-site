@@ -128,9 +128,11 @@
   "MahdiSamiei": {
     "name": "محمد مهدی سمیعی",
     "title": "کارشناسی ۱۳۹۳",
-    "url": "#",
+    "url": "https://t.me/out_of_distribution",
     "image_url": "/img/authors/MahdiSamiei.png",
     "socials": {
+      "email": "mohmahsamiei@gmail.com",
+      "linkedin": "mmsamiei"
     }
   },
   "MohammadMosayebi": {
@@ -163,6 +165,7 @@
     "url": "#",
     "image_url": "/img/authors/MahdiBahramian.jpg",
     "socials": {
+      "github": "MahdiGMK"
     }
   },
   "AmirHosseinRazlighi": {
