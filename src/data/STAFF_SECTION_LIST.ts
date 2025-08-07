@@ -26,7 +26,7 @@ const STAFF_SECTION_LIST: StaffSection[] = [
                 email: "amirahsh20041382@gmail.com",
                 imageURL: "/img/staff/ahsh.jpg",
                 socials: {},
-            },  {
+            }, {
                 name: "آرش شاه‌حسینی",
                 title: "ورودی ۱۴۰۲ کارشناسی",
                 email: "",
@@ -68,6 +68,13 @@ const STAFF_SECTION_LIST: StaffSection[] = [
                     linkedin: "https://www.linkedin.com/in/ahmz1833/",
                 },
             },
+            {
+                name: "امیرحسین شایان",
+                title: "Amirhosein shayan",
+                email: "amirhoseinshaayaan@gmail.com",
+                imageURL: "/img/staff/AmirHosseinShayan.jpg",
+                socials: {},
+            },
         ],
     },
     {
@@ -92,6 +99,15 @@ const STAFF_SECTION_LIST: StaffSection[] = [
                     github: "https://github.com/titansarus/",
                     linkedin: "https://www.linkedin.com/in/amirmahdi-namjoo-23b4b9192/",
                     website: "https://amirmahdinamjoo.com/",
+                },
+            },
+            {
+                name: "صهیب صادقی",
+                title: "Sohaib Sadeqi",
+                email: "sohaibsadeghy@gmail.com",
+                imageURL: "/img/staff/SohaibSadeqi.jpg",
+                socials: {
+                    github: "https://github.com/sohaib-sadeqi",
                 },
             },
         ],
@@ -157,8 +173,7 @@ const STAFF_SECTION_LIST: StaffSection[] = [
                 title: "Leila Alavi",
                 email: "leilaalavitaba@gmail.com",
                 imageURL: "/img/staff/LeilaSadatAlavi.jpg",
-                socials: {
-                },
+                socials: {},
             },
             {
                 name: "امیرمهدی کوششی",
@@ -184,9 +199,29 @@ const STAFF_SECTION_LIST: StaffSection[] = [
                 title: "bardia rezaei kalantari",
                 email: "bardiarezaeikalantari@gmail.com",
                 imageURL: "/img/authors/BardiaRezaei.jpg",
+                socials: {},
+            },
+            {
+                name: "مهدی بهرامیان",
+                title: "Mahdi Bahramian",
+                email: "mbahramiand@gmail.com",
+                imageURL: "/img/authors/MahdiBahramian.jpg",
                 socials: {
+                    github: "github.com/MahdiGMK",
+                    linkedin: "https://www.linkedin.com/in/mahdi-bahramian",
                 },
             },
+            {
+                name: "سعید فراتی کاشانی",
+                title: "Saeed Forati-Kashani",
+                email: "saeed.forati.k@gmail.com",
+                imageURL: "/img/authors/SaeidForatik.png",
+                socials: {
+                    github: "github.com/foratik",
+                    linkedin: "https://www.linkedin.com/in/saeed-foratikashani/",
+                },
+            },
+
         ],
     },
 ];
