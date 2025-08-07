@@ -14,7 +14,7 @@ const config: Config = {
         v4: true,
     },
 
-    url: 'https://byte-magazine.github.io',
+    url: 'https://byte-mag.ir',
     baseUrl: "/",
 
     organizationName: "Byte-Magazine",
@@ -94,6 +94,12 @@ const config: Config = {
         }
     ],
     themeConfig: {
+        // algolia: {
+        //     appId: 'YOUR_APP_ID',
+        //     apiKey: 'YOUR_PUBLIC_API_KEY',
+        //     indexName: 'YOUR_INDEX_NAME',
+        //     contextualSearch: true,
+        // },
         colorMode: {
             defaultMode: 'dark',
             disableSwitch: true,
