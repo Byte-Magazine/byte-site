@@ -1,0 +1,59 @@
+.timelineContainer {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.timelineLine {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 123px);
+    bottom: 0;
+    width: 4px;
+    background-color: #ccc;
+    z-index: 0;
+}
+
+.timelineItem {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    gap: 1rem;
+    position: relative;
+    direction: rtl;
+    width: 280px;
+}
+
+.timelineDot {
+    width: 40px;
+    height: 40px;
+    background-color: var(--ifm-background-color);
+    box-shadow: 0 0px 12px var(--ifm-color-primary);
+    border: 3px solid #aaa;
+    border-radius: 50%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 2px;
+    flex-shrink: 0;
+}
+
+.timelineDot img {
+    width: 24px;
+    height: 24px;
+}
+
+.date {
+    font-size: 1rem;
+    color: #aaa;
+    margin-bottom: 0.5rem;
+}
+
