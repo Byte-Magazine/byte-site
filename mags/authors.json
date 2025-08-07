@@ -186,5 +186,62 @@
       "email": "arazlighi@gmail.com",
       "github": "https://github.com/amirhossein-razlighi"
     }
+  },
+  "ImanMohammadi": {
+    "name": "ایمان محمدی",
+    "title": "کارشناسی ۱۳۹۹",
+    "url": "#",
+    "image_url": "/img/authors/imanmohammadi.jpg",
+    "socials": {
+    }
+  },
+  "FatemeHarirforoush": {
+    "name": "فاطمه حریرفروش",
+    "title": "",
+    "url": "#",
+    "image_url": "/img/authors/noone.svg",
+    "socials": {
+    }
+  },
+  "AmirmahdiNamjoo": {
+    "name": "امیرمهدی نامجو",
+    "title": "کارشناسی ۱۳۹۷",
+    "url": "https://amirmahdinamjoo.com/",
+    "image_url": "/img/staff/AmirMahdiNamjoo.jpg",
+    "socials": {
+      "email": "amirm137878@gmail.com",
+      "github": "https://github.com/titansarus/",
+      "linkedin": "https://www.linkedin.com/in/amirmahdi-namjoo-23b4b9192/"
+    }
+  },
+  "HirbodBehnam": {
+    "name": "هیربد بهنام",
+    "title": "کارشناسی ۱۳۹۹",
+    "url": "mailto:hirbod.behnam.81@gmail.com",
+    "image_url": "/img/authors/hirbodbehnam.jpg",
+    "socials": {
+      "email": "hirbod.behnam.81@gmail.com",
+      "github": "https://github.com/hirbodbehnam",
+      "linkedin": "https://linkedin.com/in/hirbod-behnam-155a84206/"
+    }
+  },
+  "HosseinGoli": {
+    "name": "حسین گلی",
+    "title": "کارشناسی ۱۳۹۹",
+    "url": "https://hgoli02.github.io/",
+    "image_url": "/img/authors/HosseinGoli.jpg",
+    "socials": {
+      "email": "hosseingoli02@gmail.com",
+      "linkedin": "https://linkedin.com/in/hosseingoli/",
+      "github": "https://github.com/hgoli02"
+    }
+  },
+  "BaharDibaeinia": {
+    "name": "بهار دیبایی‌نیا",
+    "title": "",
+    "url": "#",
+    "image_url": "/img/authors/noone.svg",
+    "socials": {
+    }
   }
 }

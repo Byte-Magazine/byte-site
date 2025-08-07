@@ -103,11 +103,11 @@ const config: Config = {
                 src: "img/logo.svg",
             },
             items: [
-                {to: "/blog", label: "وبلاگ", position: "left"},
+                {to: "#", label: "وبلاگ (بزودی)", position: "left"},
                 {to: "/mags/intro", label: "آرشیو نشریه", position: "left"},
                 {
-                    href: "https://github.com/byte-magazine/byte-site",
-                    label: "GitHub",
+                    href: "https://t.me/byte-mag/",
+                    label: "کانال تلگرام",
                     position: "right",
                 },
                 {

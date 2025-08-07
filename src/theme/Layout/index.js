@@ -19,7 +19,6 @@ export default function Layout(props) {
     children,
     noFooter,
     wrapperClassName,
-    // Not really layout-related, but kept for convenience/retro-compatibility
     title,
     description,
   } = props;

@@ -36,7 +36,7 @@ const STAFF_SECTION_LIST: StaffSection[] = [
                 name: "آرش شاه‌حسینی",
                 title: "ورودی ۱۴۰۲ کارشناسی",
                 email: "",
-                imageURL: "/img/staff/arash.jpg",
+                imageURL: "/img/authors/ArashShahhosseini.png",
                 socials: {},
             },
         ],
