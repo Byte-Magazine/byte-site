@@ -1,40 +1,35 @@
+import React from "react";
 import Link from "@docusaurus/Link";
-import Heading from "@theme/Heading";
 
 import styles from "./styles.module.css";
+import Heading from "@theme/Heading";
+import {featureList} from "@site/src/data/FEATURE_LIST";
 
-const featureList = [
-    {
-        title: "00000001",
-        imageSrc: "/img/00000001.jpg",
-        description: "اولین شماره نشریه‌ی بایت",
-        link: "/mags/00000001",
-    },
-    {
-        title: "00000010",
-        imageSrc: "/img/00000010.jpg",
-        description: "دومین شماره نشریه‌ی بایت",
-        link: "/mags/00000010",
-    },
-    {
-        title: "00000011",
-        imageSrc: "/img/00000011.jpg",
-        description: "سومین شماره نشریه‌ی بایت",
-        link: "/mags/00000011",
-    },
-];
 
-function Feature({title, imageSrc, description, link}) {
+function Feature({title, imageSrc, description, link, download, themeColor}) {
     return (
-        <div className="col col--3 text--center">
-            <div className="padding-horiz--md">
-                <Link to={link} className={styles.featureLink}>
-                    <img className={styles.featureSvg} src={imageSrc} alt={""}/>
-                    <Heading style={{color: "unset"}} as="h3">{title}</Heading>
-                    <p>{description}</p>
-                </Link>
+        <a href={`/mags/${title}`} className={`col col--3 ${styles.cardWrapper}`}>
+            <div className={styles.card}>
+
+                <div className={styles.imageWrapper}>
+                    <img className={styles.poster} src={imageSrc} alt={title}/>
+                    <div className={styles.issueTitle} style={{backgroundColor: themeColor}}>
+                        {title}
+                    </div>
+                </div>
+
+                <Heading as="h3" className={styles.title}>{description}</Heading>
+
+                <div className={styles.buttons}>
+                    <Link to={download} className={`${styles.btn} ${styles.secondaryBtn}`} download>
+                        دانلود نشریه
+                    </Link>
+                    <Link to={link} className={`${styles.btn} ${styles.primaryBtn}`}>
+                        مشاهده متن‌ها
+                    </Link>
+                </div>
             </div>
-        </div>
+        </a>
     );
 }
 
