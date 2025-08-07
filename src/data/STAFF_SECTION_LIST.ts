@@ -26,12 +26,14 @@ const STAFF_SECTION_LIST: StaffSection[] = [
                 email: "amirahsh20041382@gmail.com",
                 imageURL: "/img/staff/ahsh.jpg",
                 socials: {},
-            },  {
+            }, {
                 name: "آرش شاه‌حسینی",
                 title: "ورودی ۱۴۰۲ کارشناسی",
-                email: "",
+                email: "arash.shahhosseinii@gmail.com",
                 imageURL: "/img/authors/ArashShahhosseini.png",
-                socials: {},
+                socials: {
+                    github: "https://github.com/arashShahhoseini",
+                },
             },
         ],
     },
@@ -157,8 +159,7 @@ const STAFF_SECTION_LIST: StaffSection[] = [
                 title: "Leila Alavi",
                 email: "leilaalavitaba@gmail.com",
                 imageURL: "/img/staff/LeilaSadatAlavi.jpg",
-                socials: {
-                },
+                socials: {},
             },
             {
                 name: "امیرمهدی کوششی",
@@ -184,8 +185,7 @@ const STAFF_SECTION_LIST: StaffSection[] = [
                 title: "bardia rezaei kalantari",
                 email: "bardiarezaeikalantari@gmail.com",
                 imageURL: "/img/authors/BardiaRezaei.jpg",
-                socials: {
-                },
+                socials: {},
             },
         ],
     },

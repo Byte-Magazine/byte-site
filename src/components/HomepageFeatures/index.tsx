@@ -7,9 +7,10 @@ import {featureList} from "@site/src/data/FEATURE_LIST";
 
 
 function Feature({title, imageSrc, description, themeColor}) {
+    // @ts-ignore
     return (
         <a href={`/mags/${title}`} className={`col col--3 ${styles.cardWrapper}`}>
-            <div className={styles.card}>
+            <div className={styles.card} style={{"--card-hover-color": themeColor}}>
 
                 <div className={styles.imageWrapper}>
                     <img className={styles.poster} src={imageSrc} alt={title}/>

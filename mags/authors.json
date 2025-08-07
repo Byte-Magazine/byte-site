@@ -77,9 +77,11 @@
   "ArashShahhosseini": {
     "name": "آرش شاه‌حسینی",
     "title": "کارشناسی ۱۴۰۲",
-    "url": "mailto:",
+    "url": "mailto:arash.shahhosseinii@gmail.com",
     "image_url": "/img/authors/ArashShahhosseini.png",
     "socials": {
+      "github": "https://github.com/arashShahhoseini",
+      "email": "arash.shahhosseinii@gmail.com"
     }
   },
   "AlirezaTofighi": {
