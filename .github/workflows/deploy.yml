@@ -9,7 +9,6 @@ jobs:
   deploy-pages:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
-    if: github.event_name == 'push'
 
     steps:
       - name: Checkout source
@@ -37,7 +36,7 @@ jobs:
   deploy-server:
     name: Deploy to Production Server
     runs-on: ubuntu-latest
-    if: github.event_name == 'workflow_dispatch'
+    needs: deploy-pages
 
     steps:
       - name: Deploy over SSH using appleboy/ssh-action
