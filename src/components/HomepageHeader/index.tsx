@@ -12,7 +12,7 @@ export default function HomepageHeader() {
                     <span className={"font-dana"} style={{fontSize: "2.5rem"}}>نشریۀ علمی فرهنگی</span>
                     <span className={"font-snapp"}> بایت</span>
                     <br/>
-                    <span className={"font-dana"} style={{fontSize: "1.3rem"}}>دانشکده مهندسی کامپیوتر دانشگاه صنعتی شریف</span>
+                    <span className={styles.tagline} style={{fontSize: "1.3rem"}}>دانشکده مهندسی کامپیوتر دانشگاه صنعتی شریف</span>
                 </Heading>
             </div>
         </header>

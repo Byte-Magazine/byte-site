@@ -7,11 +7,13 @@ import {featureList} from "@site/src/data/FEATURE_LIST";
 
 
 function Feature({title, imageSrc, description, themeColor}) {
-    // @ts-ignore
     return (
-        <a href={`/mags/${title}`} className={`col col--3 ${styles.cardWrapper}`}>
-            <div className={styles.card} style={{"--card-hover-color": themeColor}}>
-
+        <div
+            className={`col col--3 ${styles.cardWrapper}`}
+            onClick={() => window.location.href = `/mags/${title}`}
+            style={{cursor: 'pointer'}}
+        >
+            <div className={styles.card} style={{"--card-hover-color": themeColor} as React.CSSProperties}>
                 <div className={styles.imageWrapper}>
                     <img className={styles.poster} src={imageSrc} alt={title}/>
                     <div className={styles.issueTitle} style={{backgroundColor: themeColor}}>
@@ -19,22 +21,31 @@ function Feature({title, imageSrc, description, themeColor}) {
                     </div>
                 </div>
 
-                <Heading as="h3" className={styles.title}>{description}</Heading>
+                <h3 className={styles.title}>{description}</h3>
 
-                <div className={styles.buttons}>
-                    <Link to={`https://s3.byte-mag.ir/mags/${title}.pdf`}
-                          className={`${styles.btn} ${styles.secondaryBtn}`}
-                          download>
+                <div className={styles.buttons} onClick={(e) => e.stopPropagation()}>
+                    <a
+                        href={`https://s3.byte-mag.ir/mags/${title}.pdf`}
+                        className={`${styles.btn} ${styles.secondaryBtn}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        download
+                    >
                         دانلود نشریه
-                    </Link>
-                    <Link to={`/mags/${title}`} className={`${styles.btn} ${styles.primaryBtn}`}>
+                    </a>
+
+                    <Link
+                        to={`/mags/${title}`}
+                        className={`${styles.btn} ${styles.primaryBtn}`}
+                    >
                         مشاهده متن‌ها
                     </Link>
                 </div>
             </div>
-        </a>
+        </div>
     );
 }
+
 
 export default function HomepageFeatures() {
     return (

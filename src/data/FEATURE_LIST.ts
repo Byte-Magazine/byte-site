@@ -16,5 +16,5 @@ export const featureList = [
         imageSrc: "/img/00000011.jpg",
         description: "سومین شماره نشریه‌ی بایت",
         themeColor: "rgba(210,4,4,0.3)",
-    },
+    }
 ];
