@@ -18,7 +18,7 @@ export type Staff = {
 
 const STAFF_SECTION_LIST: StaffSection[] = [
     {
-        name: "مدیر مسئول",
+        name: "مدیر مسئول و سردبیر",
         staffList: [
             {
                 name: "امیرحسین شهیدی",
@@ -26,13 +26,7 @@ const STAFF_SECTION_LIST: StaffSection[] = [
                 email: "amirahsh20041382@gmail.com",
                 imageURL: "/img/staff/ahsh.jpg",
                 socials: {},
-            },
-        ],
-    },
-    {
-        name: "سردبیر",
-        staffList: [
-            {
+            },  {
                 name: "آرش شاه‌حسینی",
                 title: "ورودی ۱۴۰۲ کارشناسی",
                 email: "",
@@ -77,7 +71,7 @@ const STAFF_SECTION_LIST: StaffSection[] = [
         ],
     },
     {
-        name: "ویراستاری",
+        name: "ویراستاری ادبی",
         staffList: [
             {
                 name: "امیرحسین صوری",
@@ -103,7 +97,7 @@ const STAFF_SECTION_LIST: StaffSection[] = [
         ],
     },
     {
-        name: "صفحه‌آرایی",
+        name: "صفحه‌آرایی و گرافیک",
         staffList: [
             {
                 name: "معین آعلی",
