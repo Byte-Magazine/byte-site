@@ -176,7 +176,7 @@
     "url": "#",
     "image_url": "/img/authors/MahdiBahramian.jpg",
     "socials": {
-      "github": "MahdiGMK"
+      "github": "https://github.com/MahdiGMK"
     }
   },
   "AmirHosseinRazlighi": {
@@ -241,6 +241,14 @@
   },
   "BaharDibaeinia": {
     "name": "بهار دیبایی‌نیا",
+    "title": "",
+    "url": "#",
+    "image_url": "/img/authors/noone.svg",
+    "socials": {
+    }
+  },
+  "AmirHosseinHasanZadeh": {
+    "name": "امیرحسین حسن‌زاده",
     "title": "",
     "url": "#",
     "image_url": "/img/authors/noone.svg",
