@@ -6,7 +6,7 @@ import Heading from "@theme/Heading";
 import {featureList} from "@site/src/data/FEATURE_LIST";
 
 
-function Feature({title, imageSrc, description, link, download, themeColor}) {
+function Feature({title, imageSrc, description, themeColor}) {
     return (
         <a href={`/mags/${title}`} className={`col col--3 ${styles.cardWrapper}`}>
             <div className={styles.card}>
@@ -21,10 +21,12 @@ function Feature({title, imageSrc, description, link, download, themeColor}) {
                 <Heading as="h3" className={styles.title}>{description}</Heading>
 
                 <div className={styles.buttons}>
-                    <Link to={download} className={`${styles.btn} ${styles.secondaryBtn}`} download>
+                    <Link to={`https://s3.byte-mag.ir/mags/${title}.pdf`}
+                          className={`${styles.btn} ${styles.secondaryBtn}`}
+                          download>
                         دانلود نشریه
                     </Link>
-                    <Link to={link} className={`${styles.btn} ${styles.primaryBtn}`}>
+                    <Link to={`/mags/${title}`} className={`${styles.btn} ${styles.primaryBtn}`}>
                         مشاهده متن‌ها
                     </Link>
                 </div>
@@ -38,7 +40,7 @@ export default function HomepageFeatures() {
         <section className="padding-vert--lg">
             <div className="container">
                 <div className={styles.centerRow}>
-                    {featureList.map((props, idx) => (
+                    {featureList.reverse().map((props, idx) => (
                         <Feature key={idx} {...props} />
                     ))}
                 </div>
