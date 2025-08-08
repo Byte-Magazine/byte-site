@@ -62,7 +62,7 @@
 }
 
 .katex-html {
-    display: none;
+    direction: initial;
 }
 
 .theme-doc-markdown a {
