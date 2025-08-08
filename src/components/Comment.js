@@ -28,5 +28,9 @@ export default function GiscusComments() {
         };
     }, []);
 
-    return <div ref={ref} className="giscus-container"/>;
+    return <>
+        <br/>
+        <div style={{borderTop: "2px solid #ccc", paddingTop: "20px", marginTop: "10px"}} ref={ref}
+             className="giscus-container"/>
+    </>;
 }

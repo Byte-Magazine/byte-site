@@ -27,7 +27,10 @@ const Timeline: React.FC = () => {
                         >
                             <div className={shared.title}>{feature.title}</div>
                             <div className={styles.date}>{feature.date}</div>
-                            <p className={"font-snapp"}>{feature.description}</p>
+                            <div style={{display: "flex", justifyContent: "center",flexDirection: "row-reverse",gap:"4px", alignItems: "center"}}>
+                                <p className={"font-dana"}>{feature.description}</p>
+                                <p className={"font-snapp"}>بایت</p>
+                            </div>
                             <a
                                 href={`https://s3.byte-mag.ir/mags/${feature.title}.pdf`}
                                 className={`${shared.btn} ${shared.primaryBtn}`}

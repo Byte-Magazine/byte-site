@@ -34,8 +34,6 @@ export default function DocItemContent({children}) {
                     <MDXContent>{children}</MDXContent>
                 </>
             )}
-            <hr/>
-            <GiscusComments/>
         </div>
     );
 }
