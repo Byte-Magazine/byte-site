@@ -120,30 +120,56 @@ const config: Config = {
                 src: "img/logo.svg",
             },
             items: [
-                {to: "#", label: "وبلاگ (بزودی)", position: "left"},
                 {to: "/mags/intro", label: "آرشیو نشریه", position: "left"},
-                {
-                    href: "https://t.me/byte-mag/",
-                    label: "کانال تلگرام",
-                    position: "right",
-                },
+                {to: "#", label: "وبلاگ (بزودی)", position: "left"},
                 {
                     to: "/staff",
                     label: "اعضای مرکزی",
-                    position: "left",
+                    position: "right",
                 },
                 {
                     to: "/authors",
                     label: "نویسندگان",
-                    position: "left",
+                    position: "right",
                 }
             ],
         },
 
         footer: {
             style: "dark",
-            copyright: `© نشریه‌ی علمی فرهنگی بایت - دانشکده مهندسی کامپیوتر - دانشگاه صنعتی شریف`,
+            links: [
+                {
+                    title: "کانال تلگرام",
+                    items: [
+                        {
+                            label: "عضویت در کانال",
+                            href: "https://t.me/YourChannelUsername", // لینک تلگرام
+                        },
+                    ],
+                },
+                {
+                    title: "فرم عضویت در نشریه",
+                    items: [
+                        {
+                            label: "تکمیل فرم",
+                            href: "https://forms.gle/your-google-form-id", // لینک فرم
+                        },
+                    ],
+                },
+                {
+                    title: "ایمیل نشریه",
+                    items: [
+                        {
+                            label: "ارسال ایمیل",
+                            href: "mailto:info@byte-mag.ir", // ایمیل
+                        },
+                    ],
+                },
+            ],
+            copyright:
+                "© نشریه‌ی علمی فرهنگی بایت - دانشکده مهندسی کامپیوتر - دانشگاه صنعتی شریف",
         },
+
         prism: {
             theme: prismThemes.dracula,
             darkTheme: prismThemes.dracula,

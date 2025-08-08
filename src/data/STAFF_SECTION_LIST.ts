@@ -24,7 +24,6 @@ const STAFF_SECTION_LIST: StaffSection[] = [
                 title: "کارشناسی ۱۴۰۱",
                 imageURL: "/img/staff/ahsh.jpg",
                 socials: {
-                    github: "https://github.com/amirahsh1404"
                 },
             }, {
                 name: "آرش شاه‌حسینی",
