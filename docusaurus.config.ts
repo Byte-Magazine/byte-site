@@ -92,7 +92,7 @@ const config: Config = {
             type: "text/css",
         },
         {
-            href: "https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css",
+            href: "/scripts/katex.min.css",
             type: "text/css",
             integrity:
                 "sha384-mll67QQsFfWbT1xWQ+Z1sbbdUUrwVlf4lH5Dm61St1nO4jkHknwYlB3RZgQs9gIh",
