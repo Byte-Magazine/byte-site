@@ -38,6 +38,12 @@ const config: Config = {
         [
             "classic",
             {
+                sitemap: {
+                    changefreq: 'weekly',
+                    priority: 0.5,
+                    ignorePatterns: ['/tags/**', '/**/tags/**'],
+                    filename: 'sitemap.xml',
+                },
                 // docs: {
                 //     sidebarPath: "./sidebars.ts",
                 //     editUrl:
