@@ -5,8 +5,8 @@
     "url": "mailto:moeeeinaali@gmail.com",
     "image_url": "/img/staff/moeein.jpg",
     "socials": {
-      "github": "moeeinaali",
-      "linkedin": "moeein",
+      "github": "https://github.com/moeeinaali",
+      "linkedin": "https://www.linkedin.com/in/moeein",
       "email": "moeeeinaali@gmail.com"
     }
   },
@@ -16,8 +16,8 @@
     "url": "mailto:spn2001@outlook.com",
     "image_url": "/img/authors/SParsaNeshaei.jpg",
     "socials": {
-      "github": "spneshaei",
-      "linkedin": "spneshaei",
+      "github": "https://github.com/spneshaei",
+      "linkedin": "https://www.linkedin.com/in/spneshaei",
       "email": "spn2001@outlook.com"
     }
   },
@@ -101,7 +101,7 @@
     "url": "mailto:amkamir96@gmail.com",
     "image_url": "/img/authors/dutchman.png",
     "socials": {
-      "github": "amkamir82",
+      "github": "https://github.com/amkamir82",
       "linkedin": "https://www.linkedin.com/in/amirmahdi-kousheshi-344326166/",
       "email": "amkamir96@gmail.com"
     }
@@ -143,7 +143,7 @@
     "image_url": "/img/authors/MahdiSamiei.png",
     "socials": {
       "email": "mohmahsamiei@gmail.com",
-      "linkedin": "mmsamiei"
+      "linkedin": "https://www.linkedin.com/in/mmsamiei"
     }
   },
   "MohammadMosayebi": {
