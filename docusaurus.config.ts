@@ -129,9 +129,14 @@ const config: Config = {
                 },
                 {
                     to: "/staff",
-                    label: "اعضا",
+                    label: "اعضای مرکزی",
                     position: "left",
                 },
+                {
+                    to: "/authors",
+                    label: "نویسندگان",
+                    position: "left",
+                }
             ],
         },
 
