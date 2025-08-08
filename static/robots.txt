@@ -2,5 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://byte-mag.ir/sitemap.xml
-
-# Algolia-Crawler-Verif: 38AC8A381A6B13B0

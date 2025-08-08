@@ -21,14 +21,14 @@ const STAFF_SECTION_LIST: StaffSection[] = [
         staffList: [
             {
                 name: "امیرحسین شهیدی",
-                title: "ورودی ۱۴۰۱ کارشناسی",
+                title: "کارشناسی ۱۴۰۱",
                 imageURL: "/img/staff/ahsh.jpg",
                 socials: {
                     github: "https://github.com/amirahsh1404"
                 },
             }, {
                 name: "آرش شاه‌حسینی",
-                title: "ورودی ۱۴۰۲ کارشناسی",
+                title: "کارشناسی ۱۴۰۲",
                 imageURL: "/img/authors/ArashShahhosseini.png",
                 socials: {
                     github: "https://github.com/arashShahhoseini",
@@ -41,7 +41,7 @@ const STAFF_SECTION_LIST: StaffSection[] = [
         staffList: [
             {
                 name: "آرمان طهماسبی زاده",
-                title: "Arman Tahmasebi",
+                title: "کارشناسی ۱۴۰۲",
                 imageURL: "/img/staff/ArmanTahmasbi.jpg",
                 socials: {
                     "github": "https://github.com/OstadTahmasb",
@@ -50,7 +50,7 @@ const STAFF_SECTION_LIST: StaffSection[] = [
             },
             {
                 name: "مهدی علی‌نژاد",
-                title: "Mahdi Alinejad",
+                title: "کارشناسی ۱۴۰۱",
                 imageURL: "/img/staff/MahdiAlinejhad.jpg",
                 socials: {
                     github: "https://github.com/soilorian",
@@ -65,7 +65,7 @@ const STAFF_SECTION_LIST: StaffSection[] = [
             },
             {
                 name: "امیرحسین محمدزاده",
-                title: "AmirHossein MohammadZadeh",
+                title: "کارشناسی ۱۴۰۲",
                 imageURL: "/img/staff/AmirHosseinMohammadZadeh.jpg",
                 socials: {
                     github: "https://github.com/ahmz1833",
@@ -74,7 +74,7 @@ const STAFF_SECTION_LIST: StaffSection[] = [
             },
             {
                 name: "امیرحسین شایان",
-                title: "Amirhosein shayan",
+                title: "کارشناسی ۱۴۰۲",
                 imageURL: "/img/staff/AmirHosseinShayan.jpg",
                 socials: {},
             },
@@ -85,7 +85,7 @@ const STAFF_SECTION_LIST: StaffSection[] = [
         staffList: [
             {
                 name: "امیرحسین صوری",
-                title: "Amirhossein Souri",
+                title: "کارشناسی ۱۴۰۱",
                 imageURL: "/img/staff/AmirHosseinSouri.jpg",
                 socials: {
                     github: "https://github.com/Amir14Souri",
@@ -94,7 +94,7 @@ const STAFF_SECTION_LIST: StaffSection[] = [
             },
             {
                 name: "امیرمهدی نامجو",
-                title: "Amirmahdi Namjoo",
+                title: "کارشناسی ۱۳۹۷",
                 imageURL: "/img/staff/AmirMahdiNamjoo.jpg",
                 socials: {
                     github: "https://github.com/titansarus/",
@@ -110,7 +110,7 @@ const STAFF_SECTION_LIST: StaffSection[] = [
             },
             {
                 name: "صهیب صادقی",
-                title: "Sohaib Sadeqi",
+                title: "کارشناسی ۱۴۰۲",
                 imageURL: "/img/staff/SohaibSadeqi.jpg",
                 socials: {
                     github: "https://github.com/sohaib-sadeqi",
@@ -123,7 +123,7 @@ const STAFF_SECTION_LIST: StaffSection[] = [
         staffList: [
             {
                 name: "معین آعلی",
-                title: "Moeein Aali",
+                title: "کارشناسی ۱۴۰۱",
                 imageURL: "/img/staff/moeein.jpg",
                 socials: {
                     github: "https://github.com/moeeinaali",
@@ -132,13 +132,13 @@ const STAFF_SECTION_LIST: StaffSection[] = [
             },
             {
                 name: "محمد مصیبی",
-                title: "Mohammad Mosayyebi",
+                title: "کارشناسی ۱۳۹۹",
                 imageURL: "/img/staff/MohammadMosayyebi.jpg",
                 socials: {},
             },
             {
                 name: "امیررضا اینانلو",
-                title: "Amirreza Inanloo",
+                title: "کارشناسی ۱۴۰۱",
                 imageURL: "/img/staff/AmirrezaInanloo.jpg",
                 socials: {
                     github: "https://github.com/oAmirrezao",
@@ -146,7 +146,7 @@ const STAFF_SECTION_LIST: StaffSection[] = [
                 },
             },
         ],
-    },
+    }
 ];
 
 export default STAFF_SECTION_LIST;
