@@ -2,29 +2,24 @@
   "Moeein": {
     "name": "معین آعلی",
     "title": "کارشناسی ۱۴۰۱",
-    "url": "mailto:moeeeinaali@gmail.com",
     "image_url": "/img/staff/moeein.jpg",
     "socials": {
       "github": "https://github.com/moeeinaali",
-      "linkedin": "https://www.linkedin.com/in/moeein",
-      "email": "moeeeinaali@gmail.com"
+      "linkedin": "https://www.linkedin.com/in/moeein"
     }
   },
   "SParsaNeshaei": {
     "name": "سید پارسا نشایی",
     "title": "کارشناسی ۱۳۹۸",
-    "url": "mailto:spn2001@outlook.com",
     "image_url": "/img/authors/SParsaNeshaei.jpg",
     "socials": {
       "github": "https://github.com/spneshaei",
-      "linkedin": "https://www.linkedin.com/in/spneshaei",
-      "email": "spn2001@outlook.com"
+      "linkedin": "https://www.linkedin.com/in/spneshaei"
     }
   },
   "EmadEmamJome": {
     "name": "عماد امام‌ جمعه",
     "title": "کارشناسی ۱۴۰۰",
-    "url": "mailto:",
     "image_url": "/img/authors/EmadEmamJome.png",
     "socials": {
       "github": "https://github.com/EmadEJ",
@@ -34,7 +29,6 @@
   "ArvinTaheri": {
     "name": "آروین طاهری",
     "title": "کارشناسی ۱۴۰۲",
-    "url": "mailto:",
     "image_url": "/img/authors/ArvinTaheri.png",
     "socials": {
     }
@@ -42,7 +36,6 @@
   "MatinGhiasi": {
     "name": "متین غیاثی",
     "title": "کارشناسی ۱۴۰۲",
-    "url": "mailto:",
     "image_url": "/img/authors/MatinGhiasi.png",
     "socials": {
     }
@@ -50,28 +43,23 @@
   "SaeidForatiK": {
     "name": "سعید فراتی کاشانی",
     "title": "کارشناسی ۱۴۰۱",
-    "url": "mailto:saeed.forati.k@gmail.com",
     "image_url": "/img/authors/SaeidForatiK.png",
     "socials": {
       "github": "https://github.com/foratik",
-      "linkedin": "https://www.linkedin.com/in/saeed-foratikashani/",
-      "email": "saeed.forati.k@gmail.com"
+      "linkedin": "https://www.linkedin.com/in/saeed-foratikashani/"
     }
   },
   "AmirHosseinShahidi": {
     "name": "امیرحسین شهیدی",
     "title": "کارشناسی ۱۴۰۱",
-    "url": "mailto:amirahsh20041382@gmail.com",
     "image_url": "/img/staff/ahsh.jpg",
     "socials": {
-      "github": "https://github.com/amirahsh1404",
-      "email": "amirahsh20041382@gmail.com"
+      "github": "https://github.com/amirahsh1404"
     }
   },
   "LeilaSadatAlavi": {
     "name": "لیلا سادات علوی",
     "title": "کارشناسی ارشد نرم‌افزار ۱۴۰۱",
-    "url": "mailto:",
     "image_url": "/img/authors/LeilaSadatAlavi.png",
     "socials": {
     }
@@ -79,17 +67,14 @@
   "ArashShahhosseini": {
     "name": "آرش شاه‌حسینی",
     "title": "کارشناسی ۱۴۰۲",
-    "url": "mailto:arash.shahhosseinii@gmail.com",
     "image_url": "/img/authors/ArashShahhosseini.png",
     "socials": {
-      "github": "https://github.com/arashShahhoseini",
-      "email": "arash.shahhosseinii@gmail.com"
+      "github": "https://github.com/arashShahhoseini"
     }
   },
   "AlirezaTofighi": {
     "name": "علیرضا توفیقی",
     "title": "کارشناسی علوم‌ کامپیوتر ۱۳۹۶",
-    "url": "#",
     "image_url": "/img/authors/AlirezaTofighi.png",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/atofighi/"
@@ -98,29 +83,24 @@
   "dutchman": {
     "name": "امیرمهدی کوششی",
     "title": "کارشناسی ۱۳۹۸",
-    "url": "mailto:amkamir96@gmail.com",
     "image_url": "/img/authors/dutchman.png",
     "socials": {
       "github": "https://github.com/amkamir82",
-      "linkedin": "https://www.linkedin.com/in/amirmahdi-kousheshi-344326166/",
-      "email": "amkamir96@gmail.com"
+      "linkedin": "https://www.linkedin.com/in/amirmahdi-kousheshi-344326166/"
     }
   },
   "Alinejad": {
     "name": "مهدی علینژاد",
     "title": "کارشناسی ۱۴۰۱",
-    "url": "mailto:mahdiali3804@gmail.com",
     "image_url": "/img/authors/MahdiAlinejad.png",
     "socials": {
       "linkedin": "https://linkedin.com/in/mahdi-ali-nejad",
-      "github": "https://github.com/soilorian",
-      "email": "mahdiali3804@gmail.com"
+      "github": "https://github.com/soilorian"
     }
   },
   "RomanRodomansky": {
     "name": "Roman Rodomansky",
     "title": "هم\u200Cبنیان\u200Cگذار Relabs",
-    "url": "https://about.me/roman.rodomansky",
     "image_url": "/img/authors/RomanRodomansky.png",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/rodomansky/"
@@ -129,27 +109,22 @@
   "AmirHosseinAnsari": {
     "name": "امیرحسین انصاری",
     "title": "کارشناسی ارشد ۱۴۰۱",
-    "url": "https://scholar.google.com/citations?hl=en&user=TyUGU_AAAAAJ",
     "image_url": "/img/authors/AmirHosseinAnsari.png",
     "socials": {
-      "linkedin": "https://www.linkedin.com/in/amir-hossein-ansari-b4bba5241",
-      "email": "amirhosein.ansari79@gmail.com"
+      "linkedin": "https://www.linkedin.com/in/amir-hossein-ansari-b4bba5241"
     }
   },
   "MahdiSamiei": {
     "name": "محمد مهدی سمیعی",
     "title": "کارشناسی ۱۳۹۳",
-    "url": "https://t.me/out_of_distribution",
     "image_url": "/img/authors/MahdiSamiei.png",
     "socials": {
-      "email": "mohmahsamiei@gmail.com",
       "linkedin": "https://www.linkedin.com/in/mmsamiei"
     }
   },
   "MohammadMosayebi": {
     "name": "محمد مصیبی",
     "title": "کارشناسی ۱۳۹۹",
-    "url": "#",
     "image_url": "/img/authors/MohammadMosayebi.png",
     "socials": {
     }
@@ -157,7 +132,6 @@
   "MahdiBahreyni": {
     "name": "مهدی بحرینی",
     "title": "دکترا ۱۴۰۱",
-    "url": "#",
     "image_url": "/img/authors/MahdiBahreyni.png",
     "socials": {
     }
@@ -165,17 +139,14 @@
   "BardiaRezaei": {
     "name": "بردیا رضایی",
     "title": "کارشناسی ۱۳۹۹",
-    "url": "bardiarezaeikalantari@gmail.com",
     "image_url": "/img/authors/BardiaRezaei.jpg",
     "socials": {
-      "linkedin": "https://www.linkedin.com/in/bardia-rezaei-kalantari-0a0921219",
-      "email": "bardiarezaeikalantari@gmail.com"
+      "linkedin": "https://www.linkedin.com/in/bardia-rezaei-kalantari-0a0921219"
     }
   },
   "MahdiBahramian": {
     "name": "مهدی بهرامیان",
     "title": "کارشناسی ۱۴۰۱",
-    "url": "#",
     "image_url": "/img/authors/MahdiBahramian.jpg",
     "socials": {
       "github": "https://github.com/MahdiGMK"
@@ -184,18 +155,15 @@
   "AmirHosseinRazlighi": {
     "name": "امیرحسین رازلیقی",
     "title": "کارشناسی ۱۳۹۹",
-    "url": "https://amirhossein-razlighi.github.io/",
     "image_url": "/img/authors/AmirHosseinRazlighi.png",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/amirhossein-razlighi/",
-      "email": "arazlighi@gmail.com",
       "github": "https://github.com/amirhossein-razlighi"
     }
   },
   "ImanMohammadi": {
     "name": "ایمان محمدی",
     "title": "کارشناسی ۱۳۹۹",
-    "url": "#",
     "image_url": "/img/authors/imanmohammadi.jpg",
     "socials": {
     }
@@ -203,7 +171,6 @@
   "FatemeHarirforoush": {
     "name": "فاطمه حریرفروش",
     "title": "",
-    "url": "#",
     "image_url": "/img/authors/noone.svg",
     "socials": {
     }
@@ -211,10 +178,8 @@
   "AmirmahdiNamjoo": {
     "name": "امیرمهدی نامجو",
     "title": "کارشناسی ۱۳۹۷",
-    "url": "https://amirmahdinamjoo.com/",
     "image_url": "/img/staff/AmirMahdiNamjoo.jpg",
     "socials": {
-      "email": "amirm137878@gmail.com",
       "github": "https://github.com/titansarus/",
       "linkedin": "https://www.linkedin.com/in/amirmahdi-namjoo-23b4b9192/"
     }
@@ -222,10 +187,8 @@
   "HirbodBehnam": {
     "name": "هیربد بهنام",
     "title": "کارشناسی ۱۳۹۹",
-    "url": "mailto:hirbod.behnam.81@gmail.com",
     "image_url": "/img/authors/hirbodbehnam.jpg",
     "socials": {
-      "email": "hirbod.behnam.81@gmail.com",
       "github": "https://github.com/hirbodbehnam",
       "linkedin": "https://linkedin.com/in/hirbod-behnam-155a84206/"
     }
@@ -236,7 +199,6 @@
     "url": "https://hgoli02.github.io/",
     "image_url": "/img/authors/HosseinGoli.jpg",
     "socials": {
-      "email": "hosseingoli02@gmail.com",
       "linkedin": "https://linkedin.com/in/hosseingoli/",
       "github": "https://github.com/hgoli02"
     }
@@ -244,7 +206,6 @@
   "BaharDibaeinia": {
     "name": "بهار دیبایی‌نیا",
     "title": "",
-    "url": "#",
     "image_url": "/img/authors/noone.svg",
     "socials": {
     }
@@ -252,7 +213,6 @@
   "AmirHosseinHasanZadeh": {
     "name": "امیرحسین حسن‌زاده",
     "title": "",
-    "url": "#",
     "image_url": "/img/authors/noone.svg",
     "socials": {
     }

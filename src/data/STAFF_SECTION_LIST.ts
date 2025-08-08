@@ -23,7 +23,6 @@ const STAFF_SECTION_LIST: StaffSection[] = [
             {
                 name: "امیرحسین شهیدی",
                 title: "ورودی ۱۴۰۱ کارشناسی",
-                email: "amirahsh20041382@gmail.com",
                 imageURL: "/img/staff/ahsh.jpg",
                 socials: {
                     github: "https://github.com/amirahsh1404"
@@ -31,7 +30,6 @@ const STAFF_SECTION_LIST: StaffSection[] = [
             }, {
                 name: "آرش شاه‌حسینی",
                 title: "ورودی ۱۴۰۲ کارشناسی",
-                email: "arash.shahhosseinii@gmail.com",
                 imageURL: "/img/authors/ArashShahhosseini.png",
                 socials: {
                     github: "https://github.com/arashShahhoseini",
@@ -45,7 +43,6 @@ const STAFF_SECTION_LIST: StaffSection[] = [
             {
                 name: "آرمان طهماسبی زاده",
                 title: "Arman Tahmasebi",
-                email: "arman.tahmasebizadeh@gmail.com",
                 imageURL: "/img/staff/ArmanTahmasbi.jpg",
                 socials: {
                     "github": "https://github.com/OstadTahmasb",
@@ -55,7 +52,6 @@ const STAFF_SECTION_LIST: StaffSection[] = [
             {
                 name: "مهدی علی‌نژاد",
                 title: "Mahdi Alinejad",
-                email: "m1382a11n24@gmail.com",
                 imageURL: "/img/staff/MahdiAlinejhad.jpg",
                 socials: {
                     github: "https://github.com/soilorian",
@@ -71,7 +67,6 @@ const STAFF_SECTION_LIST: StaffSection[] = [
             {
                 name: "امیرحسین محمدزاده",
                 title: "AmirHossein MohammadZadeh",
-                email: "ahmz183383@gmail.com",
                 imageURL: "/img/staff/AmirHosseinMohammadZadeh.jpg",
                 socials: {
                     github: "https://github.com/ahmz1833",
@@ -81,7 +76,6 @@ const STAFF_SECTION_LIST: StaffSection[] = [
             {
                 name: "امیرحسین شایان",
                 title: "Amirhosein shayan",
-                email: "amirhoseinshaayaan@gmail.com",
                 imageURL: "/img/staff/AmirHosseinShayan.jpg",
                 socials: {},
             },
@@ -93,7 +87,6 @@ const STAFF_SECTION_LIST: StaffSection[] = [
             {
                 name: "امیرحسین صوری",
                 title: "Amirhossein Souri",
-                email: "amirhsnsouri@gmail.com",
                 imageURL: "/img/staff/AmirHosseinSouri.jpg",
                 socials: {
                     github: "https://github.com/Amir14Souri",
@@ -103,7 +96,6 @@ const STAFF_SECTION_LIST: StaffSection[] = [
             {
                 name: "امیرمهدی نامجو",
                 title: "Amirmahdi Namjoo",
-                email: "amirm137878@gmail.com",
                 imageURL: "/img/staff/AmirMahdiNamjoo.jpg",
                 socials: {
                     github: "https://github.com/titansarus/",
@@ -112,16 +104,14 @@ const STAFF_SECTION_LIST: StaffSection[] = [
                 },
             },
             {
-                "name": "متین غیاثی",
-                "title": "کارشناسی ۱۴۰۲",
+                name: "متین غیاثی",
+                title: "کارشناسی ۱۴۰۲",
                 imageURL: "/img/authors/MatinGhiasi.png",
-                "socials": {
-                }
+                socials: {}
             },
             {
                 name: "صهیب صادقی",
                 title: "Sohaib Sadeqi",
-                email: "sohaibsadeghy@gmail.com",
                 imageURL: "/img/staff/SohaibSadeqi.jpg",
                 socials: {
                     github: "https://github.com/sohaib-sadeqi",
@@ -135,7 +125,6 @@ const STAFF_SECTION_LIST: StaffSection[] = [
             {
                 name: "معین آعلی",
                 title: "Moeein Aali",
-                email: "moeeeinaali@gmail.com",
                 imageURL: "/img/staff/moeein.jpg",
                 socials: {
                     github: "https://github.com/moeeinaali",
@@ -145,14 +134,12 @@ const STAFF_SECTION_LIST: StaffSection[] = [
             {
                 name: "محمد مصیبی",
                 title: "Mohammad Mosayyebi",
-                email: "mohammad.moasayebi@gmail.com",
                 imageURL: "/img/staff/MohammadMosayyebi.jpg",
                 socials: {},
             },
             {
                 name: "امیررضا اینانلو",
                 title: "Amirreza Inanloo",
-                email: "amirreza.inanloo.sut@gmail.com",
                 imageURL: "/img/staff/AmirrezaInanloo.jpg",
                 socials: {
                     github: "https://github.com/oAmirrezao",
@@ -161,75 +148,6 @@ const STAFF_SECTION_LIST: StaffSection[] = [
             },
         ],
     },
-    // {
-    //     name: "نویسندگان",
-    //     staffList: [
-    //         {
-    //             name: "عارف شه بخش",
-    //             title: "Aref Shahbakhsh",
-    //             email: "aref.shahbakhsh1998@gmail.com",
-    //             imageURL: "/img/staff/ArefShahbakhsh.jpg",
-    //             socials: {
-    //                 github: "https://github.com/Aref-Shahbakhsh",
-    //                 linkedin: "https://www.linkedin.com/in/Aref-Shahbakhsh",
-    //                 website: "https://Aref-shahbakhsh.github.io",
-    //             },
-    //         },
-    //         {
-    //             name: "سعید فراتی کاشانی",
-    //             title: "کارشناسی ۱۴۰۱",
-    //             email: "saeed.forati.k@gmail.com",
-    //             imageURL: "/img/authors/SaeidForatiK.png",
-    //             socials: {
-    //                 github: "https://github.com/foratik",
-    //                 linkedin: "https://www.linkedin.com/in/saeed-foratikashani/",
-    //             }
-    //         },
-    //         {
-    //             name: "امیرحسین انصاری",
-    //             title: "Amir Hossein Ansari",
-    //             email: "amirhosein.ansari79@gmail.com",
-    //             imageURL: "/img/staff/AmirHosseinAnsari.jpg",
-    //             socials: {
-    //                 linkedin: "https://www.linkedin.com/in/amir-hossein-ansari-b4bba5241",
-    //                 website: "https://scholar.google.com/citations?hl=en&user=TyUGU_AAAAAJ",
-    //             },
-    //         },
-    //         {
-    //             name: "لیلا علوی",
-    //             title: "Leila Alavi",
-    //             email: "leilaalavitaba@gmail.com",
-    //             imageURL: "/img/staff/LeilaSadatAlavi.jpg",
-    //             socials: {},
-    //         },
-    //         {
-    //             name: "امیرمهدی کوششی",
-    //             title: "Dutchman",
-    //             email: "amkamir96@gmail.com",
-    //             imageURL: "/img/staff/Dutchman.jpeg",
-    //             socials: {
-    //                 github: "https://github.com/amkamir82",
-    //             },
-    //         },
-    //         {
-    //             name: "عماد امام‌جمعه",
-    //             title: "Emad Emamojomeh",
-    //             email: "s.emad.emamjomeh@gmail.com",
-    //             imageURL: "/img/staff/EmadEmamJome.jpg",
-    //             socials: {
-    //                 github: "https://github.com/EmadEJ",
-    //                 linkedin: "https://www.linkedin.com/in/emad-emamjomeh/",
-    //             },
-    //         },
-    //         {
-    //             name: "بردیا رضائی کلانتری",
-    //             title: "bardia rezaei kalantari",
-    //             email: "bardiarezaeikalantari@gmail.com",
-    //             imageURL: "/img/authors/BardiaRezaei.jpg",
-    //             socials: {},
-    //         },
-    //     ],
-    // },
 ];
 
 export default STAFF_SECTION_LIST;
