@@ -1,5 +1,5 @@
-import rehypeKatex from "rehype-katex";
-import remarkMath from "remark-math";
+import rehypeKatex from 'rehype-katex';
+import remarkMath from 'remark-math';
 
 import {themes as prismThemes} from "prism-react-renderer";
 import type {Config} from "@docusaurus/types";
@@ -37,6 +37,7 @@ const config: Config = {
     presets: [
         [
             "classic",
+            /** @type {import('@docusaurus/preset-classic').Options} */
             {
                 sitemap: {
                     changefreq: 'weekly',
@@ -44,11 +45,6 @@ const config: Config = {
                     ignorePatterns: ['/tags/**', '/**/tags/**'],
                     filename: 'sitemap.xml',
                 },
-                // docs: {
-                //     sidebarPath: "./sidebars.ts",
-                //     editUrl:
-                //         "https://github.com/Byte-Magazine/byte-site/tree/main/",
-                // },
                 blog: {
                     blogTitle: "وبلاگ",
                     blogDescription: "وبلاگ نشریه‌ی بایت",
@@ -66,7 +62,7 @@ const config: Config = {
                     onUntruncatedBlogPosts: "warn",
                 },
                 theme: {
-                    customCss: "./src/css/custom.css",
+                    customCss: './src/css/custom.css',
                 },
             } satisfies Preset.Options,
         ],
@@ -88,24 +84,14 @@ const config: Config = {
     ],
     stylesheets: [
         {
-            href: "/css/custom.css",
-            type: "text/css",
-        },
-        {
-            href: "/scripts/katex.min.css",
-            type: "text/css",
+            href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+            type: 'text/css',
             integrity:
-                "sha384-mll67QQsFfWbT1xWQ+Z1sbbdUUrwVlf4lH5Dm61St1nO4jkHknwYlB3RZgQs9gIh",
-            crossorigin: "anonymous",
-        }
+                'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+            crossorigin: 'anonymous',
+        },
     ],
     themeConfig: {
-        // algolia: {
-        //     appId: 'YOUR_APP_ID',
-        //     apiKey: 'YOUR_PUBLIC_API_KEY',
-        //     indexName: 'YOUR_INDEX_NAME',
-        //     contextualSearch: true,
-        // },
         colorMode: {
             defaultMode: 'dark',
             disableSwitch: true,
@@ -137,37 +123,8 @@ const config: Config = {
 
         footer: {
             style: "dark",
-            links: [
-                {
-                    title: "کانال تلگرام",
-                    items: [
-                        {
-                            label: "عضویت در کانال",
-                            href: "https://t.me/YourChannelUsername", // لینک تلگرام
-                        },
-                    ],
-                },
-                {
-                    title: "فرم عضویت در نشریه",
-                    items: [
-                        {
-                            label: "تکمیل فرم",
-                            href: "https://forms.gle/your-google-form-id", // لینک فرم
-                        },
-                    ],
-                },
-                {
-                    title: "ایمیل نشریه",
-                    items: [
-                        {
-                            label: "ارسال ایمیل",
-                            href: "mailto:info@byte-mag.ir", // ایمیل
-                        },
-                    ],
-                },
-            ],
             copyright:
-                "© نشریه‌ی علمی فرهنگی بایت - دانشکده مهندسی کامپیوتر - دانشگاه صنعتی شریف",
+                "© نشریه‌ی علمی فرهنگی بایت - دانشکده مهندسی کامپیوتر - دانشگاه صنعتی شریف"
         },
 
         prism: {

@@ -61,8 +61,13 @@
     text-align: right;
 }
 
+span.katex {
+    direction: rtl;
+    unicode-bidi: isolate;
+}
+
 .katex-html {
-    display: none;
+    direction: initial;
 }
 
 .theme-doc-markdown a {
