@@ -3,7 +3,7 @@ import Heading from "@theme/Heading";
 
 import HomepageHeader from "@site/src/components/HomepageHeader";
 
-import assistantsData from "@site/src/data/STAFF_SECTION_LIST";
+import staffData from "@site/src/data/STAFF_SECTION_LIST";
 import "@site/src/css/toggle.css";
 import StaffCard from "@site/src/components/StaffCard";
 
@@ -16,7 +16,7 @@ export default function StaffPage() {
             <HomepageHeader/>
             <main>
                 <section className="padding-vert--lg">
-                    {assistantsData.map((section, index) => {
+                    {staffData.map((section, index) => {
                         return (
                             <article key={index} className="container margin-top--lg">
                                 <Heading as="h2" className="margin-bottom--lg">
