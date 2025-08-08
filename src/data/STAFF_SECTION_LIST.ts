@@ -6,7 +6,6 @@ export type StaffSection = {
 export type Staff = {
     name: string;
     title?: string;
-    email?: string;
     imageURL?: string;
     socials: {
         github?: string;

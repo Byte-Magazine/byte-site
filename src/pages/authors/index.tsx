@@ -28,13 +28,11 @@ export default function AuthorsPage() {
                                 return -1;
                             }
                         }).map((author, index) => {
-                            const {email, ...socialsWithoutEmail} = author.socials || {};
                             const staff = {
                                 name: author.name,
                                 title: author.title,
-                                email: author.socials?.email,
                                 imageURL: author.image_url,
-                                socials: socialsWithoutEmail || {},
+                                socials: author.socials || {},
                             };
                             return <StaffCard key={index} staff={staff}/>;
                         })}

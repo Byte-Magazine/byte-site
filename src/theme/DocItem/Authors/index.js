@@ -28,8 +28,6 @@ function normalizeSocialLink(platform, handleOrUrl) {
             return `https://stackoverflow.com/users/${handleOrUrl}`;
         case "newsletter":
             return handleOrUrl;
-        case "email":
-            return `mailto:${handleOrUrl}`;
         default:
             return handleOrUrl;
     }
@@ -40,7 +38,6 @@ const socialIconMap = {
     github: FaGithub,
     linkedin: FaLinkedin,
     stackoverflow: FaStackOverflow,
-    email: FaEnvelope,
     newsletter: FaRss,
 };
 
