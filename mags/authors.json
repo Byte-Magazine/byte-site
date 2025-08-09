@@ -215,5 +215,13 @@
     "image_url": "/img/authors/noone.svg",
     "socials": {
     }
+  },
+  "YasaminBakooei": {
+    "name": "شهید یاسمین باکویی",
+    "title": "کارشناسی ارشد معماری کامپیوتر ۱۴۰۲",
+    "image_url": "/img/authors/YasaminBakooei.png",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/yasaminbakouee/"
+    }
   }
 }
