@@ -1,7 +1,7 @@
 .wrapper {
     position: relative;
     display: inline-block;
-    cursor: pointer;
+    cursor: help;
 }
 
 .text {
@@ -19,7 +19,17 @@
     border-radius: 0.25rem;
     white-space: nowrap;
     z-index: 100;
-    opacity: 0.8;
     margin-bottom: 0.25rem;
-    font-size: 1rem;
+    font-size: 0.75rem;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    pointer-events: none;
+}
+
+.tooltip.show {
+    opacity: 0.8;
+    visibility: visible;
+    pointer-events: auto;
 }
