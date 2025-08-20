@@ -52,7 +52,7 @@ export default function HomepageFeatures() {
         <section className="padding-vert--lg">
             <div className="container">
                 <div className={styles.centerRow}>
-                    {featureList.reverse().map((props, idx) => (
+                    {featureList.map((props, idx) => (
                         <Feature key={idx} {...props} />
                     ))}
                 </div>
