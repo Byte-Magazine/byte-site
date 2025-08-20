@@ -240,6 +240,13 @@
     "socials": {
     }
   },
+  "ErfanAsadi": {
+    "name": "مرحوم عرفان اسدی",
+    "title": "کارشناسی ۱۳۹۹",
+    "image_url": "/img/authors/ErfanAsadi.jpg",
+    "socials": {
+    }
+  },
   "NimaShirzadi": {
     "name": "نیما شیرزادی",
     "title": "کارشناسی ارشد ۱۴۰۱",
@@ -247,4 +254,5 @@
     "socials": {
     }
   }
+
 }
