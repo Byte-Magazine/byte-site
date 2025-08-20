@@ -1,7 +1,6 @@
 .centerRow {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 2rem;
 }
 
@@ -43,7 +42,7 @@
     transform-origin: center;
 }
 
-.card:hover{
+.card:hover {
     box-shadow: 0 0px 16px var(--card-hover-color);
 }
 
@@ -121,3 +120,9 @@
     color: #000;
 }
 
+
+@media screen and (max-width: 996px) {
+    .centerRow {
+        flex-wrap: wrap;
+    }
+}

@@ -4,7 +4,7 @@ export const featureList = [
         date: "۱۴۰۲/۰۹/۰۷",
         imageSrc: "/img/00000001.jpg",
         description: "شماره‌ اول ",
-        themeColor: "rgba(73,94,113,0.3)",
+        themeColor: "rgba(73,94,113,0.4)",
     },
     {
         title: "00000010",
@@ -19,5 +19,12 @@ export const featureList = [
         imageSrc: "/img/00000011.jpg",
         description: "شماره سوم ",
         themeColor: "rgba(210,4,4,0.3)",
+    },
+    {
+        title: "00000100",
+        date: "۱۴۰۴/۰۵/۲۹",
+        imageSrc: "/img/00000100.png",
+        description: "شماره چهارم ",
+        themeColor: "rgba(76,161,82,0.4)",
     }
 ];
