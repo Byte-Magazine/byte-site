@@ -145,6 +145,20 @@ const STAFF_SECTION_LIST: StaffSection[] = [
                 },
             },
         ],
+    },
+    {
+        name: "ارتباط با صنعت",
+        staffList: [
+            {
+                name: "امید حیدری",
+                title: "کارشناسی ۱۴۰۱",
+                imageURL: "/img/staff/omidheidari.jpg",
+                socials: {
+                    github: "https://github.com/omid-hdr",
+                    linkedin: "https://www.linkedin.com/in/omid-hdr/",
+                },
+            }
+        ],
     }
 ];
 
