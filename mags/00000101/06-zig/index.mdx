@@ -59,7 +59,7 @@ import Tooltip from '@site/src/components/Tooltip';
 
 - اجرای تابع فیبوناچی در زمان کامپایل
 
-```
+```zig
 const std = @import("std");
 pub fn main() !void {
     const fib10 = comptime blk: {
@@ -76,7 +76,7 @@ pub fn main() !void {
 
 - داده‌ساختارهای کلی‌سازی‌شده
 
-```
+```zig
 const std = @import("std");
 pub fn main() !void {
     const T = GenericType(i32, usize);
@@ -100,7 +100,7 @@ fn GenericType(T0: type, T1: type) type {
 
 - چندریختی ایستا
 
-```
+```zig
 const std = @import("std");
 pub fn main() !void {
     const x = Cat{};
@@ -174,7 +174,7 @@ git+https://github.com/MahdiGMK/build-util.zig.git
 ```
 و با استفاده از کد build.zig زیر یک باینری به نام exe با لینک کردن تمام فایل‌های cpp. درون پوشهٔ src به‌عنوان فایل‌های به زبان cpp. توصیف می‌شود: 
 
-```
+```zig
 const std = @import("std");
 const util = @import("build-util");
 
