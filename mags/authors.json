@@ -246,6 +246,38 @@
       "linkedin": "https://www.linkedin.com/in/shirzady/",
       "github": "https://github.com/shirzady1934"
     }
+  },
+  "rajabi": {
+    "name": "نیما شیرزادی",
+    "title": "کارشناسی ۱۴۰۲",
+    "image_url": "/img/authors/rajabi.png",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/rajabi-m/"
+    }
+  },
+  "farzamKoohi": {
+    "name": "فرزام کوهی",
+    "title": "کارشناسی ۱۴۰۱",
+    "image_url": "/img/authors/farzamKoohi.png",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/farzam-koohi/"
+    }
+  },
+  "arefZarezadeh": {
+    "name": "عارف زارع‌زاده",
+    "title": "کارشناسی ۱۴۰۱",
+    "image_url": "/img/authors/arefZarezadeh.png",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/arefzarezadeh/"
+    }
+  },
+  "amirmahdiHedayatiPour": {
+    "name": "امیرمهدی هدایتی‌پور",
+    "title": "کارشناسی ۱۴۰۱",
+    "image_url": "/img/authors/amirmahdiHedayatiPour.png",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/amirmahdi-hedayatipoor-129519349/"
+    }
   }
 
 }
