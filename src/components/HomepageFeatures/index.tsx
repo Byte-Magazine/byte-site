@@ -2,7 +2,6 @@ import React from "react";
 import Link from "@docusaurus/Link";
 
 import styles from "./styles.module.css";
-import Heading from "@theme/Heading";
 import {featureList} from "@site/src/data/FEATURE_LIST";
 
 
