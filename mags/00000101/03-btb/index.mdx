@@ -7,6 +7,15 @@ import Tooltip from '@site/src/components/Tooltip';
 
 برنامه‌های کاربردی دنیای واقعی دربرگیرندهٔ <Tooltip tip="Data center applications"><span>**برنامه‌های مرکز داده‌ها**</span></Tooltip> شامل حجم عظیمی از <Tooltip tip="Instructions"><span>**دستورات**</span></Tooltip> هستند. این حجم زیاد از دستورات، شامل تعداد قابل‌توجهی <Tooltip tip="Branch instruction"><span>**دستورات انشعاب**</span></Tooltip> هستند که موجب می‌شود <Tooltip tip="Miss"><span>**عدم برخورد**</span></Tooltip> در <Tooltip tip="I-Cache"><span>**حافظۀ نهان دستورات**</span></Tooltip> بالا برود.
 
+:::tip[یادآوری]
+
+### حافظۀ نهان یا Cache چیست؟
+
+حافظۀ نهان یک حافظۀ موقتی است که داده‌های پرکاربردی که در یک بازهٔ زمانی (به این نزدیکی زمانی دسترسی‌ها، محلیت زمانی یا Temporal locality می‌گویند) یا در یک بازهٔ مکانی (از حیث قرارگیری در حافظه، به این نزدیکی، Spatial locality می‌گویند) را در خود نگه می‌دارد تا نیاز به دسترسی کندتر 	و طولانی‌تر به حافظهٔ اصلی (RAM) را کمتر کند و سرعت اجرای دستورات بالاتر برود.
+
+:::
+
+
 برای غلبه بر این میزان بالای عدم برخورد در حافظۀ نهان دستورات، راه‌حل‌های متنوعی ارائه شده‌است که یکی از این راه‌ها <Tooltip tip="Fetch Directed Instruction Prefetching"><span>**FDIP**</span></Tooltip> است. این واحد در پردازنده‌ها، با <Tooltip tip="Prefetching"><span>**پیش‌واکشی**</span></Tooltip> دستورهای آينده، آن‌ها را به حافظۀ نهان دستورات برده تا در زمان اجرای واقعی آماده باشند. نکتهٔ حائز اهمیت در پیش‌واکشی دستورات، توجه به <Tooltip tip="Conditional Branch"><span>**دستورات انشعاب شرطی**</span></Tooltip> و <Tooltip tip="Unconditional Branch"><span>**غیرشرطی**</span></Tooltip> است.
 
 برای دستورات شرطی، طبعاً بخشی تحت‌عنوان <Tooltip tip="Branch Predictor"><span>**پیش‌بینی‌کنندهٔ انشعاب**</span></Tooltip> نیاز داریم که بتواند <Tooltip tip="Taken"><span>**رخ‌دادن**</span></Tooltip> یا <Tooltip tip="Not Taken"><span>**ندادن**</span></Tooltip> دستور انشعاب شرطی را پیش‌بینی کند. این پیش‌بینی می‌تواند به انتخاب دستورات و آدرس‌های درست در پیش‌واکشی کمک کند، به گونه‌ای که پیش‌بینی اشتباه می‌تواند مجموعهٔ دستورات اشتباهی را وارد حافظۀ نهان دستورات کند و موجب آلودگی حافظۀ نهان شود.
