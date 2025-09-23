@@ -7,7 +7,7 @@ const Timeline: React.FC = () => {
         return (
             <div className={styles.timelineContainer}>
                 <div className={styles.timelineLine}/>
-                {featureList.map((feature, index) => (
+                {[...featureList].reverse().map((feature, index) => (
                     <a href={`/mags/${feature.title}`} key={index} style={{textDecoration: "none"}}
                        className={styles.timelineItem}>
                         <div className={styles.timelineDot}
