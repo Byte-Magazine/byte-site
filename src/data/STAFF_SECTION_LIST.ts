@@ -144,6 +144,14 @@ const STAFF_SECTION_LIST: StaffSection[] = [
                     linkedin: "https://www.linkedin.com/in/amirreza-inanloo-00576425b",
                 },
             },
+            {
+                name: "سیداحمد موسوی اول",
+                title: "کارشناسی ۱۴۰۲",
+                imageURL: "/img/staff/seyedahmad.png",
+                socials: {
+                    github: "https://github.com/seyedahmadmosaviawal",
+                },
+            },
         ],
     },
     {
