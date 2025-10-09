@@ -23,8 +23,7 @@ const STAFF_SECTION_LIST: StaffSection[] = [
                 name: "امیرحسین شهیدی",
                 title: "کارشناسی ۱۴۰۱",
                 imageURL: "/img/staff/ahsh.jpg",
-                socials: {
-                },
+                socials: {},
             }, {
                 name: "آرش شاه‌حسینی",
                 title: "کارشناسی ۱۴۰۲",
@@ -76,6 +75,14 @@ const STAFF_SECTION_LIST: StaffSection[] = [
                 title: "کارشناسی ۱۴۰۲",
                 imageURL: "/img/staff/AmirHosseinShayan.jpg",
                 socials: {},
+            },
+            {
+                name: "آروین بقال اصل",
+                title: "کارشناسی ۱۴۰۳",
+                imageURL: "/img/staff/baghal.png",
+                socials: {
+                    github: "https://github.com/arvinasli"
+                },
             },
         ],
     },
