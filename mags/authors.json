@@ -278,6 +278,23 @@
     "socials": {
       "linkedin": "https://www.linkedin.com/in/amirmahdi-hedayatipoor-129519349/"
     }
+  },
+  "YazdanBahadori": {
+    "name": "یزدان  بهادری\u200Cمنش",
+    "title": "کارشناسی ۱۴۰۰ مهندسی کامپیوتر خوارزمی",
+    "image_url": "/img/authors/yazdanBahadori.png",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/yazdanbahadori/",
+      "github": "https://github.com/yazdanbhd"
+    }
+  },
+  "ArvinBaghal": {
+    "name": "آروین بقال اصل",
+    "title": "کارشناسی ۱۴۰۳",
+    "image_url": "/img/staff/baghal.png",
+    "socials": {
+      "github": "https://github.com/arvinasli"
+    }
   }
 
 }
