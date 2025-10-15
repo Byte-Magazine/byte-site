@@ -299,9 +299,23 @@
   "saraYounesi": {
     "name": "سارا یونسی",
     "title": "کارشناسی ارشد ۱۴۰۳",
-    "image_url": "/img/staff/saraYounesi.png",
+    "image_url": "/img/authors/saraYounesi.png",
     "socials": {
       "linkedin": "https://www.linkedin.com/in/sara-younesi-660a79220/"
+    }
+  },
+  "aidaJabbari": {
+    "name": "آیدا جباری",
+    "title": "کارشناسی ۱۴۰۳ مهندسی شیمی اراک",
+    "image_url": "/img/authors/aidaJabbari.png",
+    "socials": {
+    }
+  },
+  "aliGhamari": {
+    "name": "علی قمری",
+    "title": "کارشناسی ۱۴۰۳ مهندسی شیمی اراک",
+    "image_url": "/img/authors/aliGhamari.png",
+    "socials": {
     }
   }
 
