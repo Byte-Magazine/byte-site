@@ -33,5 +33,12 @@ export const featureList = [
         imageSrc: "/img/00000101.png",
         description: "شماره پنجم ",
         themeColor: "rgba(213,169,33,0.4)",
+    },
+    {
+        title: "00000110",
+        date: "۱۴۰۴/۰۷/۲۴",
+        imageSrc: "/img/00000110.png",
+        description: "شماره ششم ",
+        themeColor: "rgba(231,92,249,0.4)",
     }
 ].reverse();
