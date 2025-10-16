@@ -301,7 +301,8 @@
     "title": "کارشناسی ارشد ۱۴۰۳",
     "image_url": "/img/authors/saraYounesi.png",
     "socials": {
-      "linkedin": "https://www.linkedin.com/in/sara-younesi-660a79220/"
+      "linkedin": "https://www.linkedin.com/in/sara-younesi-660a79220/",
+      "github": "https://github.com/Sarayounesi"
     }
   },
   "aidaJabbari": {
@@ -318,5 +319,4 @@
     "socials": {
     }
   }
-
 }
