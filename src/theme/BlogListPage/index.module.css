@@ -122,12 +122,8 @@
   height: 28px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid var(--ifm-color-emphasis-200);
+  border: 2px solid var(--ifm-color-primary);
   transition: border-color var(--ifm-transition-fast);
-}
-
-.blogCardAuthor:hover .blogCardAuthorImg {
-  border-color: var(--ifm-color-primary);
 }
 
 .blogCardAuthorName {

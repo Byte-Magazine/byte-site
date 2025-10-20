@@ -40,8 +40,11 @@ function BlogListPageContent(props) {
                                     <Link to={permalink}>{title}</Link>
                                 </h2>
                                 {description && (
-                                    <p className={styles.blogCardDescription}>{description}</p>
+                                    <p className={styles.blogCardDescription}>
+                                        {description.length > 100 ? `${description.slice(0, 100)}...` : description}
+                                    </p>
                                 )}
+
 
                                 {tags && tags.length > 0 && (
                                     <div className={styles.blogCardTags}>
