@@ -51,7 +51,7 @@ const config: Config = {
                     postsPerPage: "ALL",
                     blogSidebarTitle: "مطالب منتشر شده",
                     blogSidebarCount: "ALL",
-                    showReadingTime: false,
+                    showReadingTime: true,
                     feedOptions: {
                         type: ["rss", "atom"],
                         xslt: true,
