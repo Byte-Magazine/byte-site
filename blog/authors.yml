@@ -126,7 +126,7 @@ ImanMohammadi:
   socials: {}
 FatemeHarirforoush:
   name: فاطمه حریرفروش
-  title: " "
+  title: ' '
   image_url: /img/authors/noone.svg
   socials: {}
 AmirmahdiNamjoo:
@@ -152,12 +152,12 @@ HosseinGoli:
     github: hgoli02
 BaharDibaeinia:
   name: بهار دیبایی‌نیا
-  title: " "
+  title: ' '
   image_url: /img/authors/noone.svg
   socials: {}
 AmirHosseinHasanZadeh:
   name: امیرحسین حسن‌زاده
-  title: " "
+  title: ' '
   image_url: /img/authors/noone.svg
   socials: {}
 YasaminBakooei:
@@ -236,4 +236,9 @@ aliGhamari:
   name: علی قمری
   title: کارشناسی ۱۴۰۳ مهندسی شیمی اراک
   image_url: /img/authors/aliGhamari.png
+  socials: {}
+AliMoghadasi:
+  name: عل مقدسی
+  title: کارشناسی ۱۴۰۲
+  image_url: /img/authors/aliMoghadasi.png
   socials: {}
