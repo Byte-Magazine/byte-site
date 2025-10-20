@@ -1,33 +1,33 @@
 .heroBanner {
-    background-image: url("/img/pattern.svg");
-    background-repeat: repeat;
-    background-size: cover;
-    padding: 2rem 0;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
+  background-image: url("/img/pattern.svg");
+  background-repeat: repeat;
+  background-size: cover;
+  padding: 2rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .logoFull {
-    width: 15%;
+  width: 15%;
 }
 
 /*mobile view*/
 @media screen and (max-width: 996px) {
-    .heroBanner {
-        padding: 1rem;
-    }
+  .heroBanner {
+    padding: 1rem;
+  }
 
-    .logoFull {
-        width: 35%;
-    }
+  .logoFull {
+    width: 35%;
+  }
 
-    .tagline {
-        font-size: 1rem;
-    }
+  .tagline {
+    font-size: 1rem;
+  }
 }
 
 .tagline {
-    font-family: "Dana", "Vazirmatn", sans-serif;
-    font-size: 1.3rem;
+  font-family: "Dana", "Vazirmatn", sans-serif;
+  font-size: 1.3rem;
 }

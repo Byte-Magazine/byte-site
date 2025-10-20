@@ -16,6 +16,7 @@ authors: ["SaeidForatiK"]
 دربارۀ زدن کدهای پایتون بیشتر توضیح نمی‌دم، چون خیلی منبع براش زیاده. از سورس‌های موجود در اینترنت گرفته تا یار عزیزمون (ChatGPT). حالا که کد پایتون رو زدین، باید اجراش کنین. خودم هم می‌دونم که چشم‌بسته غیب گفتم، ولی خب معمولاً دستگاه خودتون برای این کار جوابگو نیست، چون تا کوچک‌ترین مشکلی در اتصال به اینترنت به وجود بیاد قطع می‌شه. خب حالا چه کاری می‌تونیم کنیم؟ یکی از راه‌های موجود، تهیۀ سرور مجازیه که کد پایتون‌تون رو داخلش اجرا کنید، اما معمولاً برای استفاده‌های جزئی هزینه‌بره. پس انتخاب بهتر چیه؟ یک انتخاب دیگه، تهیۀ همون سرورها، اما به صورت ساعتیه و در نهایت گزینۀ اصفهانی‌مون برای پایتون، سایت [pythonanywhere](https://www.pythonanywhere.com/) هست. این سایت یک‌سری قابلیت مقدماتی رو به‌صورت رایگان ارائه می‌ده که تا حدی شبیه به همون سرور مجازیه، اما یکی از مشکلاتش اینه که احتمالاً کدتون بعد از گذشت زمانی حدود یک روز، متوقف بشه و مجبور بشید دوباره اجراش کنید؛ اما به‌طور کلی گزینۀ جالبی به حساب می‌آد.
 
 نوبتی هم که باشه، نوبت روش اصلی‌ای هست که این‌جا می‌خوایم بهش اشاره کنیم و اون هم سرویس Google Script هست. این سرویس سه مزیت اصلی رو به ما ارائه می‌ده:
+
 - کاملاً رایگانه. همیشه بالاست.
 - به سادگی میشه از Google Sheets داخلش استفاده کرد.
 - مورد آخر شاید کمی عجیب به نظر برسه، اما معمولاً به کار میاد، چون شما می‌تونین به سادگی داخل داده‌ها تغییر ایجاد کنین و خیلی راحت اون‌ها رو در حالی که بات بالا هست، بخونین.
@@ -26,11 +27,11 @@ authors: ["SaeidForatiK"]
 
 توی این محیط شما می‌تونین کدهاتون رو بزنین. برای اجرای تابع‌ها به صورت تکی، کافیه از منوی بالا انتخاب‌شون کنین و دکمۀ Run رو بزنین؛ اما اگر می‌خواین تغییرات‌تون روی خود اون WebApp هم اعمال بشه، باید Deploy کنین. اولین بار کافیه New Deployment بزنین و تنظیماتش رو به‌صورت زیر انتخاب کنین:
 
-<div style={{textAlign: 'center'}}>![](img/1.png)</div>
+<div style={{ textAlign: "center" }}>![](img/1.png)</div>
 
 برای دفعه‌های بعدی هم کافیه توی Manage Deployments، دکمۀ Edit رو بزنین و یک ورژن جدید تعریف کنین. راستی، توی این محیط بهتره که بی‌خیال ورودی گرفتن به صورت دستی بشین :).
 
-----
+---
 
 ما می‌خوایم توی این آموزش به روش پایه‌ای بات رو پیاده‌سازی کنیم و کاری به چیزهای آماده نداشته باشیم. حالا شیوۀ کلی کارمون چیه؟ این ربات ما هر کاری که انجام می‌ده (یا در اصل پیام‌هایی که می‌فرسته)، با fetch کردن یک URL در قالب زیر صورت می‌گیره:
 
@@ -40,24 +41,28 @@ https://api.telegram.org/bot<TOKEN>/<METHOD>
 
 حالا ما به سادگی می‌تونیم این URLها رو تشکیل بدیم. برای دریافت توکن که به سادگی می‌تونین وارد [BotFather@](https://t.me/BotFather) بشین و بعد از ساخت ربات‌تون، اون رو دریافت کنین. برای `METHOD` هم، خود مستندات تلگرام، بهترین منبع به حساب می‌آن. بریم با هم یک نمونه تابعش رو پیاده‌سازی کنیم.
 
-<div style={{textAlign: 'center'}}>![](img/2.png)</div>
+<div style={{ textAlign: "center" }}>![](img/2.png)</div>
 
 توی تصویر بالا، بخشی از توضیحات مربوط به تابع `sendMessage` آورده شده. خب همون‌طور که می‌بینین، پارامترهای اجباری اون، `chat_id` و `text` هستن. پس پیاده‌سازی تابع `sendMessage` می‌تونه به این شکل باشه:
 
 ```javascript
-var TOKEN = 'ENTER_YOUR_TOKEN_HERE';
-var TELEGRAM_URL = 'https://api.telegram.org/bot' + TOKEN;
+var TOKEN = "ENTER_YOUR_TOKEN_HERE";
+var TELEGRAM_URL = "https://api.telegram.org/bot" + TOKEN;
 
 function fetchAndLogUrl(url) {
-	var response = UrlFetchApp.fetch(url);
-	Logger.log(response.getContentText());
+  var response = UrlFetchApp.fetch(url);
+  Logger.log(response.getContentText());
 }
 
 function sendMessage(receiverID, textMessage) {
-	var url = TELEGRAM_URL + '/sendMessage?' +
-		'chat_id=' + receiverID +
-		'&text=' + encodeURIComponent(textMessage);
-	fetchAndLogUrl(url);
+  var url =
+    TELEGRAM_URL +
+    "/sendMessage?" +
+    "chat_id=" +
+    receiverID +
+    "&text=" +
+    encodeURIComponent(textMessage);
+  fetchAndLogUrl(url);
 }
 ```
 
@@ -66,8 +71,8 @@ function sendMessage(receiverID, textMessage) {
 
 ```javascript
 function setWebhook() {
-	var url = TELEGRAM_URL + "/setWebhook?url=" + WEBAPP_URL;
-	fetch(url);
+  var url = TELEGRAM_URL + "/setWebhook?url=" + WEBAPP_URL;
+  fetch(url);
 }
 ```
 
@@ -75,7 +80,7 @@ function setWebhook() {
 
 ```javascript
 function doPost(e) {
-	var contents = JSON.parse(e.postData.contents);
+  var contents = JSON.parse(e.postData.contents);
 }
 ```
 
@@ -90,24 +95,24 @@ var text = contents.message.text;
 
 ```javascript
 function handleMessage(chat_id, text) {
-	var sender_id = chat_id;
-	var content_text = text;
-	var userProperties = PropertiesService.getUserProperties();
-	var state = userProperties.getProperty(chat_id);
+  var sender_id = chat_id;
+  var content_text = text;
+  var userProperties = PropertiesService.getUserProperties();
+  var state = userProperties.getProperty(chat_id);
 
-	if (text === '/start') {
-		userProperties.setProperty(chat_id, 'started');
-		sendMessage(sender_id, START_MESSAGE);
-	} else if (state === 'started') {
-		userProperties.setProperty(chat_id, 'awaiting_name');
-		sendMessage(chat_id, GET_NAME_MESSAGE);
-	} else if (state === 'awaiting_name') {
-		userProperties.setProperty(chat_id, 'awaiting_last_name');
-		sendMessage(chat_id, GET_LAST_NAME_MESSAGE);
-	} else if (state === 'awaiting_last_name') {
-		userProperties.deleteProperty(chat_id);
-		sendMessage(chat_id, SUCCESS);
-	}
+  if (text === "/start") {
+    userProperties.setProperty(chat_id, "started");
+    sendMessage(sender_id, START_MESSAGE);
+  } else if (state === "started") {
+    userProperties.setProperty(chat_id, "awaiting_name");
+    sendMessage(chat_id, GET_NAME_MESSAGE);
+  } else if (state === "awaiting_name") {
+    userProperties.setProperty(chat_id, "awaiting_last_name");
+    sendMessage(chat_id, GET_LAST_NAME_MESSAGE);
+  } else if (state === "awaiting_last_name") {
+    userProperties.deleteProperty(chat_id);
+    sendMessage(chat_id, SUCCESS);
+  }
 }
 ```
 
@@ -119,12 +124,11 @@ var sheet = spreadSheet.getSheetByName(SHEET_NAME);
 var data = sheet.getDataRange().getValues();
 
 for (var i = 0; i < data.length; i++) {
-	// loop
+  // loop
 }
 ```
 
 برای نوشتن هم یکی از روش‌های ساده می‌تونه به صورت زیر باشه که به طور مستقیم روی یک سلول بنویسین:
-
 
 ```javascript
 var cell = sheet.getRange(row + 1, column + 1);

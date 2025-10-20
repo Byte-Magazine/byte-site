@@ -1,35 +1,37 @@
 .wrapper {
-    position: relative;
-    display: inline-block;
-    cursor: help;
+  position: relative;
+  display: inline-block;
+  cursor: help;
 }
 
 .text {
-    color: var(--ifm-color-primary-light);
+  color: var(--ifm-color-primary-light);
 }
 
 .tooltip {
-    position: absolute;
-    bottom: 80%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: var(--ifm-color-primary-darkest);
-    color: #fff;
-    padding: 0.5rem 0.75rem;
-    border-radius: 0.25rem;
-    white-space: nowrap;
-    z-index: 100;
-    margin-bottom: 0.25rem;
-    font-size: 0.75rem;
+  position: absolute;
+  bottom: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--ifm-color-primary-darkest);
+  color: #fff;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  white-space: nowrap;
+  z-index: 100;
+  margin-bottom: 0.25rem;
+  font-size: 0.75rem;
 
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
-    pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease;
+  pointer-events: none;
 }
 
 .tooltip.show {
-    opacity: 0.8;
-    visibility: visible;
-    pointer-events: auto;
+  opacity: 0.8;
+  visibility: visible;
+  pointer-events: auto;
 }

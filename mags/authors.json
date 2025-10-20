@@ -30,15 +30,13 @@
     "name": "آروین طاهری",
     "title": "کارشناسی ۱۴۰۲",
     "image_url": "/img/authors/ArvinTaheri.png",
-    "socials": {
-    }
+    "socials": {}
   },
   "MatinGhiasi": {
     "name": "متین غیاثی",
     "title": "کارشناسی ۱۴۰۲",
     "image_url": "/img/authors/MatinGhiasi.png",
-    "socials": {
-    }
+    "socials": {}
   },
   "SaeidForatiK": {
     "name": "سعید فراتی کاشانی",
@@ -53,15 +51,13 @@
     "name": "امیرحسین شهیدی",
     "title": "کارشناسی ۱۴۰۱",
     "image_url": "/img/staff/ahsh.jpg",
-    "socials": {
-    }
+    "socials": {}
   },
   "LeilaSadatAlavi": {
     "name": "لیلا سادات علوی",
     "title": "کارشناسی ارشد نرم‌افزار ۱۴۰۱",
     "image_url": "/img/authors/LeilaSadatAlavi.png",
-    "socials": {
-    }
+    "socials": {}
   },
   "ArashShahhosseini": {
     "name": "آرش شاه‌حسینی",
@@ -125,15 +121,13 @@
     "name": "محمد مصیبی",
     "title": "کارشناسی ۱۳۹۹",
     "image_url": "/img/authors/MohammadMosayebi.png",
-    "socials": {
-    }
+    "socials": {}
   },
   "MahdiBahreyni": {
     "name": "مهدی بحرینی",
     "title": "دکترا ۱۴۰۱",
     "image_url": "/img/authors/MahdiBahreyni.png",
-    "socials": {
-    }
+    "socials": {}
   },
   "BardiaRezaei": {
     "name": "بردیا رضایی کلانتری",
@@ -164,15 +158,13 @@
     "name": "ایمان محمدی",
     "title": "کارشناسی ۱۳۹۹",
     "image_url": "/img/authors/imanmohammadi.jpg",
-    "socials": {
-    }
+    "socials": {}
   },
   "FatemeHarirforoush": {
     "name": "فاطمه حریرفروش",
     "title": "",
     "image_url": "/img/authors/noone.svg",
-    "socials": {
-    }
+    "socials": {}
   },
   "AmirmahdiNamjoo": {
     "name": "امیرمهدی نامجو",
@@ -206,15 +198,13 @@
     "name": "بهار دیبایی‌نیا",
     "title": "",
     "image_url": "/img/authors/noone.svg",
-    "socials": {
-    }
+    "socials": {}
   },
   "AmirHosseinHasanZadeh": {
     "name": "امیرحسین حسن‌زاده",
     "title": "",
     "image_url": "/img/authors/noone.svg",
-    "socials": {
-    }
+    "socials": {}
   },
   "YasaminBakooei": {
     "name": "شهید یاسمین باکویی",
@@ -228,15 +218,13 @@
     "name": "عارف شه‌بخش",
     "title": "کارشناسی ارشد ۱٤۰۰",
     "image_url": "/img/authors/arefshahbakhsh.png",
-    "socials": {
-    }
+    "socials": {}
   },
   "ErfanAsadi": {
     "name": "مرحوم عرفان اسدی",
     "title": "کارشناسی ۱۳۹۹",
     "image_url": "/img/authors/ErfanAsadi.jpg",
-    "socials": {
-    }
+    "socials": {}
   },
   "NimaShirzadi": {
     "name": "نیما شیرزادی",
@@ -309,14 +297,12 @@
     "name": "آیدا جباری",
     "title": "کارشناسی ۱۴۰۳ مهندسی شیمی اراک",
     "image_url": "/img/authors/aidaJabbari.png",
-    "socials": {
-    }
+    "socials": {}
   },
   "aliGhamari": {
     "name": "علی قمری",
     "title": "کارشناسی ۱۴۰۳ مهندسی شیمی اراک",
     "image_url": "/img/authors/aliGhamari.png",
-    "socials": {
-    }
+    "socials": {}
   }
 }

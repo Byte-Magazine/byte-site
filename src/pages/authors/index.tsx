@@ -6,39 +6,41 @@ import authorsData from "@site/mags/authors.json";
 
 import "@site/src/css/toggle.css";
 import StaffCard from "@site/src/components/StaffCard";
-import {shuffleArray} from "@site/src/utils/shuffle";
+import { shuffleArray } from "@site/src/utils/shuffle";
 
 const title = "نویسندگان نشریه";
 const desc = "معرفی و راه‌های ارتباطی";
 
 export default function AuthorsPage() {
-    return (
-        <Layout title={title} description={desc}>
-            <HomepageHeader/>
-            <main>
-                <section className="padding-vert--lg container">
-                    <Heading as="h2" className="margin-bottom--lg">
-                        همه نویسندگان
-                    </Heading>
-                    <div className="row">
-                        {shuffleArray(Object.values(authorsData)).sort((a, b) => {
-                            if (a.image_url.includes("noone")) {
-                                return 1;
-                            } else {
-                                return -1;
-                            }
-                        }).map((author, index) => {
-                            const staff = {
-                                name: author.name,
-                                title: author.title,
-                                imageURL: author.image_url,
-                                socials: author.socials || {},
-                            };
-                            return <StaffCard key={index} staff={staff}/>;
-                        })}
-                    </div>
-                </section>
-            </main>
-        </Layout>
-    );
+  return (
+    <Layout title={title} description={desc}>
+      <HomepageHeader />
+      <main>
+        <section className="padding-vert--lg container">
+          <Heading as="h2" className="margin-bottom--lg">
+            همه نویسندگان
+          </Heading>
+          <div className="row">
+            {shuffleArray(Object.values(authorsData))
+              .sort((a, b) => {
+                if (a.image_url.includes("noone")) {
+                  return 1;
+                } else {
+                  return -1;
+                }
+              })
+              .map((author, index) => {
+                const staff = {
+                  name: author.name,
+                  title: author.title,
+                  imageURL: author.image_url,
+                  socials: author.socials || {},
+                };
+                return <StaffCard key={index} staff={staff} />;
+              })}
+          </div>
+        </section>
+      </main>
+    </Layout>
+  );
 }

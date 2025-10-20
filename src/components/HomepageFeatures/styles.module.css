@@ -1,122 +1,120 @@
 .centerRow {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .cardWrapper {
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
 }
 
 .cardWrapper:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .card {
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(16px);
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    max-width: 280px;
-    width: 100%;
-    text-align: center;
-    direction: rtl;
-    transition: all 0.3s ease;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  max-width: 280px;
+  width: 100%;
+  text-align: center;
+  direction: rtl;
+  transition: all 0.3s ease;
 }
 
-
 .poster {
-    width: 100%;
-    height: auto;
-    transition: transform 0.5s ease-in-out;
-    display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease-in-out;
+  display: block;
 }
 
 .card:hover .poster {
-    transform: scale(1.1);
-    transform-origin: center;
+  transform: scale(1.1);
+  transform-origin: center;
 }
 
 .card:hover {
-    box-shadow: 0 0px 16px var(--card-hover-color);
+  box-shadow: 0 0px 16px var(--card-hover-color);
 }
 
 .imageWrapper {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    overflow: hidden;
-    margin-bottom: 1rem;
-    position: relative;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  position: relative;
 }
 
 .issueTitle {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 0.2rem;
-    font-size: 1rem;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    border-radius: 0 0 12px 12px;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    transition: all 0.3s ease;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border-radius: 0 0 12px 12px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
 }
 
-
 .title {
-    font-size: 1.1rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    color: var(--ifm-font-color-base);
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--ifm-font-color-base);
 }
 
 .buttons {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
 }
 
 .btn {
-    padding: 0.6rem;
-    border-radius: 10px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    border: 2px solid transparent;
-    text-align: center;
-    font-family: inherit;
+  padding: 0.6rem;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  text-align: center;
+  font-family: inherit;
 }
 
 .primaryBtn {
-    background-color: var(--ifm-color-primary);
-    color: var(--ifm-background-color);
-    border-color: var(--ifm-color-primary);
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-background-color);
+  border-color: var(--ifm-color-primary);
 }
 
 .primaryBtn:hover {
-    border-color: var(--ifm-color-primary-dark);
-    background-color: var(--ifm-color-primary-dark);
-    color: #fff;
+  border-color: var(--ifm-color-primary-dark);
+  background-color: var(--ifm-color-primary-dark);
+  color: #fff;
 }
 
 .secondaryBtn {
-    background-color: transparent;
-    color: var(--ifm-color-primary);
-    border: 2px solid var(--ifm-color-primary-lightest);
+  background-color: transparent;
+  color: var(--ifm-color-primary);
+  border: 2px solid var(--ifm-color-primary-lightest);
 }
 
 .secondaryBtn:hover {
-    background-color: var(--ifm-color-primary-lightest);
-    color: #000;
+  background-color: var(--ifm-color-primary-lightest);
+  color: #000;
 }

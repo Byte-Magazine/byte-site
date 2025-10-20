@@ -14,7 +14,8 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  transition: all var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+  transition: all var(--ifm-transition-fast)
+    var(--ifm-transition-timing-default);
   transition-property: border, box-shadow;
 }
 

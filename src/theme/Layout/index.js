@@ -15,13 +15,7 @@ import clsx from "clsx";
 import styles from "./styles.module.css";
 
 export default function Layout(props) {
-  const {
-    children,
-    noFooter,
-    wrapperClassName,
-    title,
-    description,
-  } = props;
+  const { children, noFooter, wrapperClassName, title, description } = props;
   useKeyboardNavigation();
   return (
     <LayoutProvider>
