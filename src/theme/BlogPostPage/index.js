@@ -49,12 +49,10 @@ function BlogPostPageContent({ sidebar, children }) {
       <div className={styles.postHeroOverlay}>
         <h1 className={styles.postTitle}>{title}</h1>
         <div className={styles.postMeta}>
-          {/* 作者資訊 */}
           {authorsArray.length > 0 && (
             <div className={styles.postAuthors}>
               {authorsArray.map((author, idx) => {
                 return (
-                  <>
                     <div className={styles.postAuthor} key={idx}>
                       {author.imageURL && (
                         <img
@@ -92,7 +90,6 @@ function BlogPostPageContent({ sidebar, children }) {
                         )}
                       </div>
                     </div>
-                  </>
                 );
               })}
             </div>
