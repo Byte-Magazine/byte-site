@@ -51,7 +51,7 @@ const config: Config = {
                     postsPerPage: "ALL",
                     blogSidebarTitle: "مطالب منتشر شده",
                     blogSidebarCount: "ALL",
-                    showReadingTime: true,
+                    showReadingTime: false,
                     feedOptions: {
                         type: ["rss", "atom"],
                         xslt: true,
@@ -107,7 +107,7 @@ const config: Config = {
             },
             items: [
                 {to: "/mags/intro", label: "آرشیو نشریه", position: "left"},
-                {to: "#", label: "وبلاگ (بزودی)", position: "left"},
+                {to: "/blog", label: "وبلاگ", position: "left"},
                 {
                     to: "/staff",
                     label: "اعضای مرکزی",
