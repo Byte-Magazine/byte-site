@@ -21,7 +21,6 @@ function generateAuthorsYml() {
         name: author.name || " ",
         title: author.title || " ",
         image_url: author.image_url,
-        page: true, // Enable author pages
         socials: {}
       };
 

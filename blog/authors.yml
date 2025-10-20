@@ -2,7 +2,6 @@ Moeein:
   name: معین آعلی
   title: کارشناسی ۱۴۰۱
   image_url: /img/staff/moeein.jpg
-  page: true
   socials:
     github: moeeinaali
     linkedin: moeein
@@ -10,7 +9,6 @@ SParsaNeshaei:
   name: سید پارسا نشایی
   title: کارشناسی ۱۳۹۸
   image_url: /img/authors/SParsaNeshaei.jpg
-  page: true
   socials:
     github: spneshaei
     linkedin: spneshaei
@@ -18,7 +16,6 @@ EmadEmamJome:
   name: عماد امام‌ جمعه
   title: کارشناسی ۱۴۰۰
   image_url: /img/authors/EmadEmamJome.png
-  page: true
   socials:
     github: EmadEJ
     linkedin: emad-emamjomeh
@@ -26,19 +23,16 @@ ArvinTaheri:
   name: آروین طاهری
   title: کارشناسی ۱۴۰۲
   image_url: /img/authors/ArvinTaheri.png
-  page: true
   socials: {}
 MatinGhiasi:
   name: متین غیاثی
   title: کارشناسی ۱۴۰۲
   image_url: /img/authors/MatinGhiasi.png
-  page: true
   socials: {}
 SaeidForatiK:
   name: سعید فراتی کاشانی
   title: کارشناسی ۱۴۰۱
   image_url: /img/authors/SaeidForatiK.png
-  page: true
   socials:
     github: foratik
     linkedin: saeed-foratikashani
@@ -46,33 +40,28 @@ AmirHosseinShahidi:
   name: امیرحسین شهیدی
   title: کارشناسی ۱۴۰۱
   image_url: /img/staff/ahsh.jpg
-  page: true
   socials: {}
 LeilaSadatAlavi:
   name: لیلا سادات علوی
   title: کارشناسی ارشد نرم‌افزار ۱۴۰۱
   image_url: /img/authors/LeilaSadatAlavi.png
-  page: true
   socials: {}
 ArashShahhosseini:
   name: آرش شاه‌حسینی
   title: کارشناسی ۱۴۰۲
   image_url: /img/authors/ArashShahhosseini.png
-  page: true
   socials:
     github: arashShahhoseini
 AlirezaTofighi:
   name: علیرضا توفیقی
   title: کارشناسی علوم‌ کامپیوتر ۱۳۹۶
   image_url: /img/authors/AlirezaTofighi.png
-  page: true
   socials:
     linkedin: atofighi
 dutchman:
   name: امیرمهدی کوششی
   title: کارشناسی ۱۳۹۸
   image_url: /img/authors/dutchman.png
-  page: true
   socials:
     github: amkamir82
     linkedin: amirmahdi-kousheshi-344326166
@@ -80,7 +69,6 @@ Alinejad:
   name: مهدی علینژاد
   title: کارشناسی ۱۴۰۱
   image_url: /img/authors/MahdiAlinejad.png
-  page: true
   socials:
     linkedin: mahdi-ali-nejad
     github: soilorian
@@ -88,54 +76,46 @@ RomanRodomansky:
   name: Roman Rodomansky
   title: هم‌بنیان‌گذار Relabs
   image_url: /img/authors/RomanRodomansky.png
-  page: true
   socials:
     linkedin: rodomansky
 AmirHosseinAnsari:
   name: امیرحسین انصاری
   title: کارشناسی ارشد ۱۴۰۱
   image_url: /img/authors/AmirHosseinAnsari.png
-  page: true
   socials:
     linkedin: amir-hossein-ansari-b4bba5241
 MahdiSamiei:
   name: محمد مهدی سمیعی
   title: کارشناسی ۱۳۹۳
   image_url: /img/authors/MahdiSamiei.png
-  page: true
   socials:
     linkedin: mmsamiei
 MohammadMosayebi:
   name: محمد مصیبی
   title: کارشناسی ۱۳۹۹
   image_url: /img/authors/MohammadMosayebi.png
-  page: true
   socials: {}
 MahdiBahreyni:
   name: مهدی بحرینی
   title: دکترا ۱۴۰۱
   image_url: /img/authors/MahdiBahreyni.png
-  page: true
   socials: {}
 BardiaRezaei:
   name: بردیا رضایی کلانتری
   title: کارشناسی ۱۳۹۹
   image_url: /img/authors/BardiaRezaei.jpg
-  page: true
   socials:
     linkedin: bardia-rezaei-kalantari-0a0921219
 MahdiBahramian:
   name: مهدی بهرامیان
   title: کارشناسی ۱۴۰۱
   image_url: /img/authors/MahdiBahramian.jpg
-  page: true
   socials:
     github: MahdiGMK
 AmirHosseinRazlighi:
   name: امیرحسین رازلیقی
   title: کارشناسی ۱۳۹۹
   image_url: /img/authors/AmirHosseinRazlighi.png
-  page: true
   socials:
     linkedin: amirhossein-razlighi
     github: amirhossein-razlighi
@@ -143,19 +123,16 @@ ImanMohammadi:
   name: ایمان محمدی
   title: کارشناسی ۱۳۹۹
   image_url: /img/authors/imanmohammadi.jpg
-  page: true
   socials: {}
 FatemeHarirforoush:
   name: فاطمه حریرفروش
   title: ' '
   image_url: /img/authors/noone.svg
-  page: true
   socials: {}
 AmirmahdiNamjoo:
   name: امیرمهدی نامجو
   title: کارشناسی ۱۳۹۷
   image_url: /img/staff/AmirMahdiNamjoo.jpg
-  page: true
   socials:
     github: titansarus
     linkedin: amirmahdi-namjoo-23b4b9192
@@ -163,7 +140,6 @@ HirbodBehnam:
   name: هیربد بهنام
   title: کارشناسی ۱۳۹۹
   image_url: /img/authors/hirbodbehnam.jpg
-  page: true
   socials:
     github: hirbodbehnam
     linkedin: hirbod-behnam-155a84206
@@ -171,7 +147,6 @@ HosseinGoli:
   name: حسین گلی
   title: کارشناسی ۱۳۹۹
   image_url: /img/authors/HosseinGoli.jpg
-  page: true
   socials:
     linkedin: hosseingoli
     github: hgoli02
@@ -179,38 +154,32 @@ BaharDibaeinia:
   name: بهار دیبایی‌نیا
   title: ' '
   image_url: /img/authors/noone.svg
-  page: true
   socials: {}
 AmirHosseinHasanZadeh:
   name: امیرحسین حسن‌زاده
   title: ' '
   image_url: /img/authors/noone.svg
-  page: true
   socials: {}
 YasaminBakooei:
   name: شهید یاسمین باکویی
   title: کارشناسی ارشد معماری کامپیوتر ۱۴۰۲
   image_url: /img/authors/YasaminBakooei.png
-  page: true
   socials:
     linkedin: yasaminbakouee
 arefshahbakhsh:
   name: عارف شه‌بخش
   title: کارشناسی ارشد ۱٤۰۰
   image_url: /img/authors/arefshahbakhsh.png
-  page: true
   socials: {}
 ErfanAsadi:
   name: مرحوم عرفان اسدی
   title: کارشناسی ۱۳۹۹
   image_url: /img/authors/ErfanAsadi.jpg
-  page: true
   socials: {}
 NimaShirzadi:
   name: نیما شیرزادی
   title: کارشناسی ارشد ۱۴۰۱
   image_url: /img/authors/NimaShirzadi.png
-  page: true
   socials:
     linkedin: shirzady
     github: shirzady1934
@@ -218,35 +187,30 @@ Rajabi:
   name: محمدمهدی رجبی
   title: کارشناسی ۱۴۰۲
   image_url: /img/authors/rajabi.png
-  page: true
   socials:
     linkedin: rajabi-m
 FarzamKoohi:
   name: فرزام کوهی
   title: کارشناسی ۱۴۰۱
   image_url: /img/authors/farzamKoohi.png
-  page: true
   socials:
     linkedin: farzam-koohi
 ArefZareZadeh:
   name: عارف زارع‌زاده
   title: کارشناسی ۱۴۰۱
   image_url: /img/authors/arefZarezadeh.png
-  page: true
   socials:
     linkedin: arefzarezadeh
 AmirMahdiHedayati:
   name: امیرمهدی هدایتی‌پور
   title: کارشناسی ۱۴۰۲
   image_url: /img/authors/amirmahdiHedayatiPour.png
-  page: true
   socials:
     linkedin: amirmahdi-hedayatipoor-129519349
 YazdanBahadori:
   name: یزدان  بهادری‌منش
   title: کارشناسی ۱۴۰۰ مهندسی کامپیوتر خوارزمی
   image_url: /img/authors/yazdanBahadori.png
-  page: true
   socials:
     linkedin: yazdanbahadori
     github: yazdanbhd
@@ -254,14 +218,12 @@ ArvinBaghal:
   name: آروین بقال اصل
   title: کارشناسی ۱۴۰۳
   image_url: /img/staff/baghal.png
-  page: true
   socials:
     github: arvinasli
 saraYounesi:
   name: سارا یونسی
   title: کارشناسی ارشد ۱۴۰۳
   image_url: /img/authors/saraYounesi.png
-  page: true
   socials:
     linkedin: sara-younesi-660a79220
     github: Sarayounesi
@@ -269,11 +231,9 @@ aidaJabbari:
   name: آیدا جباری
   title: کارشناسی ۱۴۰۳ مهندسی شیمی اراک
   image_url: /img/authors/aidaJabbari.png
-  page: true
   socials: {}
 aliGhamari:
   name: علی قمری
   title: کارشناسی ۱۴۰۳ مهندسی شیمی اراک
   image_url: /img/authors/aliGhamari.png
-  page: true
   socials: {}
