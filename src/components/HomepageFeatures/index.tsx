@@ -5,11 +5,19 @@ import styles from "./styles.module.css";
 import {featureList} from "@site/src/data/FEATURE_LIST";
 
 export function Feature({title, imageSrc, description, themeColor, slug = "", file = ""}) {
+    const file_url = `https://s3.byte-mag.ir/mags/${file}.pdf`;
     return (
         <div
             className={`col col--3 ${styles.cardWrapper}`}
-            onClick={() => (window.location.href = `/mags/${title}`)}
-            style={{cursor: "pointer"}}
+            onClick={() => {
+                if (slug) {
+                    window.location.href = `/mags/${slug}`
+                }
+                else if (file) {
+                    window.location.href = file_url
+                }
+            }}
+            style={{cursor: `${(slug || file) ? "pointer" : "auto"}`}}
         >
             <div
                 className={styles.card}
@@ -31,7 +39,7 @@ export function Feature({title, imageSrc, description, themeColor, slug = "", fi
                     {
                         file && (
                             <a
-                                href={`https://s3.byte-mag.ir/mags/${file}.pdf`}
+                                href={file_url}
                                 className={`${styles.btn} ${styles.secondaryBtn}`}
                                 target="_blank"
                                 rel="noopener noreferrer"

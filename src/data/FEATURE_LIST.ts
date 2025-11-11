@@ -58,93 +58,109 @@ export const featureList = [
 
 export const codenamehList = [
     {
-        file: "codenameh_1",
-        title: "مبانی برنامه‌سازی",
-        imageSrc: "/img/codenameh_1.png",
-        description: "کدنامه شماره‌ ۱ ",
-        themeColor: "rgba(242,105,115,0.75)",
+        name: "دوره اول کدنامه",
+        features: [
+            {
+                file: "codenameh_1",
+                title: "مبانی برنامه‌سازی",
+                imageSrc: "/img/codenameh_1.png",
+                description: "کدنامه شماره‌ ۱ ",
+                themeColor: "rgba(242,105,115,0.75)",
+            },
+            {
+                file: "codenameh_2",
+                title: "مبانی برنامه‌سازی",
+                imageSrc: "/img/codenameh_2.png",
+                description: "کدنامه شماره‌ ۲ ",
+                themeColor: "rgba(242,105,115,0.75)",
+            },
+            {
+                file: "codenameh_3",
+                title: "مبانی برنامه‌سازی",
+                imageSrc: "/img/codenameh_3.png",
+                description: "کدنامه شماره‌ ۳ ",
+                themeColor: "rgba(242,105,115,0.75)",
+            },
+            {
+                file: "codenameh_4",
+                title: "مبانی برنامه‌سازی",
+                imageSrc: "/img/codenameh_4.png",
+                description: "کدنامه شماره‌ ۴ ",
+                themeColor: "rgba(242,105,115,0.75)",
+            },
+            {
+                file: "codenameh_5",
+                title: "مبانی برنامه‌سازی",
+                imageSrc: "/img/codenameh_5.png",
+                description: "کدنامه شماره‌ ۵ ",
+                themeColor: "rgba(242,105,115,0.75)",
+            }
+        ]
     },
     {
-        file: "codenameh_2",
-        title: "مبانی برنامه‌سازی",
-        imageSrc: "/img/codenameh_2.png",
-        description: "کدنامه شماره‌ ۲ ",
-        themeColor: "rgba(242,105,115,0.75)",
+        name: "دوه دوم کدنامه",
+        features: [
+            {
+                file: "codenameh_6",
+                title: "برنامه‌سازی پیشرفته",
+                imageSrc: "/img/codenameh_6.png",
+                description: "کدنامه شماره‌ ۶ ",
+                themeColor: "rgba(59,71,150,0.75)",
+            },
+            {
+                file: "codenameh_7",
+                title: "برنامه‌سازی پیشرفته",
+                imageSrc: "/img/codenameh_7.png",
+                description: "کدنامه شماره‌ ۷ ",
+                themeColor: "rgba(59,71,150,0.75)",
+            },
+            {
+                file: "codenameh_8",
+                title: "برنامه‌سازی پیشرفته",
+                imageSrc: "/img/codenameh_8.png",
+                description: "کدنامه شماره‌ ۸ ",
+                themeColor: "rgba(59,71,150,0.75)",
+            },
+            {
+                file: "codenameh_9",
+                title: "برنامه‌سازی پیشرفته",
+                imageSrc: "/img/codenameh_9.png",
+                description: "کدنامه شماره‌ ۹ ",
+                themeColor: "rgba(59,71,150,0.75)",
+            },
+            {
+                file: "codenameh_10",
+                title: "برنامه‌سازی پیشرفته",
+                imageSrc: "/img/codenameh_10.png",
+                description: "کدنامه شماره‌ ۱۰ ",
+                themeColor: "rgba(59,71,150,0.75)",
+            }
+        ]
     },
     {
-        file: "codenameh_3",
-        title: "مبانی برنامه‌سازی",
-        imageSrc: "/img/codenameh_3.png",
-        description: "کدنامه شماره‌ ۳ ",
-        themeColor: "rgba(242,105,115,0.75)",
-    },
-    {
-        file: "codenameh_4",
-        title: "مبانی برنامه‌سازی",
-        imageSrc: "/img/codenameh_4.png",
-        description: "کدنامه شماره‌ ۴ ",
-        themeColor: "rgba(242,105,115,0.75)",
-    },
-    {
-        file: "codenameh_5",
-        title: "مبانی برنامه‌سازی",
-        imageSrc: "/img/codenameh_5.png",
-        description: "کدنامه شماره‌ ۵ ",
-        themeColor: "rgba(242,105,115,0.75)",
-    },
-    {
-        file: "codenameh_6",
-        title: "برنامه‌سازی پیشرفته",
-        imageSrc: "/img/codenameh_6.png",
-        description: "کدنامه شماره‌ ۶ ",
-        themeColor: "rgba(59,71,150,0.75)",
-    },
-    {
-        file: "codenameh_7",
-        title: "برنامه‌سازی پیشرفته",
-        imageSrc: "/img/codenameh_7.png",
-        description: "کدنامه شماره‌ ۷ ",
-        themeColor: "rgba(59,71,150,0.75)",
-    },
-    {
-        file: "codenameh_8",
-        title: "برنامه‌سازی پیشرفته",
-        imageSrc: "/img/codenameh_8.png",
-        description: "کدنامه شماره‌ ۸ ",
-        themeColor: "rgba(59,71,150,0.75)",
-    },
-    {
-        file: "codenameh_9",
-        title: "برنامه‌سازی پیشرفته",
-        imageSrc: "/img/codenameh_9.png",
-        description: "کدنامه شماره‌ ۹ ",
-        themeColor: "rgba(59,71,150,0.75)",
-    },
-    {
-        file: "codenameh_10",
-        title: "برنامه‌سازی پیشرفته",
-        imageSrc: "/img/codenameh_10.png",
-        description: "کدنامه شماره‌ ۱۰ ",
-        themeColor: "rgba(59,71,150,0.75)",
-    }, {
-        file: "codenameh_11",
-        title: "مبانی برنامه‌سازی",
-        imageSrc: "/img/codenameh_11.png",
-        description: "کدنامه شماره‌ ۱۱ ",
-        themeColor: "rgba(182,36,91,0.75)",
-    },
-    {
-        file: "codenameh_12",
-        title: "مبانی برنامه‌سازی",
-        imageSrc: "/img/codenameh_12.png",
-        description: "کدنامه شماره‌ ۱۲ ",
-        themeColor: "rgba(182,36,91,0.75)",
-    },
-    {
-        file: "codenameh_13",
-        title: "مبانی برنامه‌سازی",
-        imageSrc: "/img/codenameh_13.png",
-        description: "کدنامه شماره‌ ۱۳ ",
-        themeColor: "rgba(182,36,91,0.75)",
+        name: "دوره سوم کدنامه",
+        features: [
+            {
+                file: "codenameh_11",
+                title: "مبانی برنامه‌سازی",
+                imageSrc: "/img/codenameh_11.png",
+                description: "کدنامه شماره‌ ۱۱ ",
+                themeColor: "rgba(182,36,91,0.75)",
+            },
+            {
+                file: "codenameh_12",
+                title: "مبانی برنامه‌سازی",
+                imageSrc: "/img/codenameh_12.png",
+                description: "کدنامه شماره‌ ۱۲ ",
+                themeColor: "rgba(182,36,91,0.75)",
+            },
+            {
+                file: "codenameh_13",
+                title: "مبانی برنامه‌سازی",
+                imageSrc: "/img/codenameh_13.png",
+                description: "کدنامه شماره‌ ۱۳ ",
+                themeColor: "rgba(182,36,91,0.75)",
+            }
+        ]
     }
 ].reverse();
