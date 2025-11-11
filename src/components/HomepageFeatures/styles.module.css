@@ -100,6 +100,7 @@
   background-color: var(--ifm-color-primary);
   color: var(--ifm-background-color);
   border-color: var(--ifm-color-primary);
+  flex-grow: 1;
 }
 
 .primaryBtn:hover {
@@ -109,6 +110,7 @@
 }
 
 .secondaryBtn {
+  flex-grow: 1;
   background-color: transparent;
   color: var(--ifm-color-primary);
   border: 2px solid var(--ifm-color-primary-lightest);
