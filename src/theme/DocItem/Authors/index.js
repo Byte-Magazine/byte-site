@@ -1,4 +1,5 @@
 import { useDoc } from "@docusaurus/plugin-content-docs/client";
+import clsx from "clsx";
 import authorsData from "@site/mags/authors.json";
 import React from "react";
 import {
@@ -41,9 +42,9 @@ const socialIconMap = {
   newsletter: FaRss,
 };
 
-export default function DocItemAuthors() {
+export default function DocItemAuthors({ authors: authorsProp, className }) {
   const { frontMatter } = useDoc();
-  let { authors } = frontMatter;
+  let authors = authorsProp ?? frontMatter?.authors;
 
   if (!authors) {
     return null;
@@ -91,7 +92,7 @@ export default function DocItemAuthors() {
   }
 
   return (
-    <div className={`${styles.docAuthors} margin-bottom--md`}>
+    <div className={clsx(styles.docAuthors, "margin-bottom--md", className)}>
       {resolvedAuthors.map((author, index) => {
         const { name, title, url, imageURL, socials, description } = author;
         return (
