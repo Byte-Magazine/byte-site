@@ -106,6 +106,7 @@ const config: Config = {
                 src: "img/logo.svg",
             },
             items: [
+                {to: "/codenameh", label: "آرشیو کدنامه", position: "left"},
                 {to: "/mags/intro", label: "آرشیو نشریه", position: "left"},
                 {to: "/blog", label: "وبلاگ", position: "left"},
                 {
