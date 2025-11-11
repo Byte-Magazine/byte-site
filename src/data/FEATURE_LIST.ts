@@ -53,6 +53,15 @@ export const featureList = [
     description: "شماره ششم ",
     themeColor: "rgba(231,92,249,0.4)",
   },
+  {
+    file: "",
+    slug: "00000111",
+    title: "00000111",
+    date: "۱۴۰۴/۰۸/۲۰",
+    imageSrc: "/img/00000111.png",
+    description: "شماره هفتم (ویژه‌نامه ورودی)",
+    themeColor: "rgba(61, 107, 236, 0.4)",
+  },
 ].reverse();
 
 export const codenamehList = [
