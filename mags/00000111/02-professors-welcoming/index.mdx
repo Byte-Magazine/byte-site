@@ -6,78 +6,82 @@ tags: []
 
 import Tooltip from "@site/src/components/Tooltip";
 
-<div style={{ textAlign: "center" }}>### به جمع پرشور دانشکده خوش‌آمدید!</div>
+<div style={{textAlign: "center"}}>
+    <h2>
+        به جمع پرشور دانشکده خوش‌آمدید!
+    </h2>
+</div>
 
-<div style={{ textAlign: "center" }}>
-  ### اساتید همراه شما در مسیر یادگیری خواهند بود.
+<div style={{textAlign: "center"}}>
+    <h2>اساتید همراه شما در مسیر یادگیری خواهند بود.</h2>
 </div>
 
 <div className="professors-grid" dir="ltr">
-  <div className="professor-note-djj">![](img/djj.png)</div>
-  <div className="professor-note-shahin">![](img/shahin.png)</div>
-  <div className="professor-note-abam">![](img/abam.png)</div>
-  <div className="professor-note-zarchi">![](img/zarchi.png)</div>
-  <div className="professor-note-koohi">![](img/koohi.png)</div>
-  <div className="professor-note-shohreh">![](img/shohreh.png)</div>
-  <div className="professor-note-ansari">![](img/ansari.png)</div>
-  <div className="professor-note-safari">![](img/safari.png)</div>
-  <div className="professor-note-maryam">![](img/maryam.png)</div>
+    <div className="professor-note-djj">![](img/djj.png)</div>
+    <div className="professor-note-shahin">![](img/shahin.png)</div>
+    <div className="professor-note-abam">![](img/abam.png)</div>
+    <div className="professor-note-zarchi">![](img/zarchi.png)</div>
+    <div className="professor-note-koohi">![](img/koohi.png)</div>
+    <div className="professor-note-shohreh">![](img/shohreh.png)</div>
+    <div className="professor-note-ansari">![](img/ansari.png)</div>
+    <div className="professor-note-safari">![](img/safari.png)</div>
+    <div className="professor-note-maryam">![](img/maryam.png)</div>
 </div>
 
 <style>
-  {`
+    {`
 .professors-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
 }
 
-.professors-grid > div {
-  width: 100%;
-}
+    .professors-grid > div {
+      width: 100%;
+    }
 
-.professors-grid img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-}
+    .professors-grid img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
 
-/* Mobile sorting */
-.professor-note-djj { grid-area: djj; }
-.professor-note-shahin { grid-area: shahin; }
-.professor-note-abam { grid-area: abam; }
-.professor-note-zarchi { grid-area: zarchi; }
-.professor-note-koohi { grid-area: koohi; }
-.professor-note-shohreh { grid-area: shohreh; }
-.professor-note-ansari { grid-area: ansari; }
-.professor-note-safari { grid-area: safari; }
-.professor-note-maryam { grid-area: maryam; }
+    /* Mobile sorting */
+    .professor-note-djj { grid-area: djj; }
+    .professor-note-shahin { grid-area: shahin; }
+    .professor-note-abam { grid-area: abam; }
+    .professor-note-zarchi { grid-area: zarchi; }
+    .professor-note-koohi { grid-area: koohi; }
+    .professor-note-shohreh { grid-area: shohreh; }
+    .professor-note-ansari { grid-area: ansari; }
+    .professor-note-safari { grid-area: safari; }
+    .professor-note-maryam { grid-area: maryam; }
 
-.professors-grid {
-    grid-template-areas:
-        "djj"
-        "shahin"
-        "abam"
-        "zarchi"
-        "koohi"
-        "shohreh"
-        "ansari"
-        "safari"
-        "maryam";
-}
+    .professors-grid {
+        grid-template-areas:
+            "djj"
+            "shahin"
+            "abam"
+            "zarchi"
+            "koohi"
+            "shohreh"
+            "ansari"
+            "safari"
+            "maryam";
+    }
 
 
-@media (min-width: 768px) {
-  .professors-grid {
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-      "zarchi djj"
-      "zarchi shahin"
-      "zarchi abam"
-      "shohreh koohi"
-      "safari ansari"
-      "maryam maryam";
-  }
-}
+    @media (min-width: 768px) {
+      .professors-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+          "zarchi djj"
+          "zarchi shahin"
+          "zarchi abam"
+          "shohreh koohi"
+          "safari ansari"
+          "maryam maryam";
+      }
+    }
 `}
 </style>

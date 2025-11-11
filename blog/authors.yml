@@ -126,7 +126,7 @@ ImanMohammadi:
   socials: {}
 FatemeHarirforoush:
   name: فاطمه حریرفروش
-  title: " "
+  title: ' '
   image_url: /img/authors/noone.svg
   socials: {}
 AmirmahdiNamjoo:
@@ -152,12 +152,12 @@ HosseinGoli:
     github: hgoli02
 BaharDibaeinia:
   name: بهار دیبایی‌نیا
-  title: " "
+  title: ' '
   image_url: /img/authors/noone.svg
   socials: {}
 AmirHosseinHasanZadeh:
   name: امیرحسین حسن‌زاده
-  title: " "
+  title: ' '
   image_url: /img/authors/noone.svg
   socials: {}
 YasaminBakooei:
@@ -238,7 +238,153 @@ aliGhamari:
   image_url: /img/authors/aliGhamari.png
   socials: {}
 AliMoghadasi:
-  name: عل مقدسی
+  name: علی مقدسی
   title: کارشناسی ۱۴۰۲
   image_url: /img/authors/aliMoghadasi.png
+  socials:
+    linkedin: ali-moghadasi
+    github: ali0083moi
+MHEslami:
+  name: محمدحسین اسلامی
+  title: کارشناسی ۱۴۰۱
+  image_url: /img/authors/mheslami.png
+  socials:
+    linkedin: mohammad-hossein-eslami-152586330
+    github: Mohammad-Hossein-Eslami
+MahdiLotfian:
+  name: مهدی لطفیان
+  title: کارشناسی ارشد
+  image_url: /img/authors/mahdilotfian.png
   socials: {}
+AsalMeskin:
+  name: عسل مسکین
+  title: کارشناسی ۱۴۰۱
+  image_url: /img/authors/asalmeskin.png
+  socials:
+    linkedin: asal-meskin-2144a025b
+ArshiaAkhavan:
+  name: عرشیا اخوان
+  title: کارشناسی ارشد
+  image_url: /img/authors/arshiaakhavan.png
+  socials:
+    linkedin: arshia-akhavan
+    github: ArshiAAkhavan
+MahdiMohammadi:
+  name: مهدی محمدی
+  title: کارشناسی ۱۴۰۰
+  image_url: /img/authors/mahdimohammadi.png
+  socials:
+    linkedin: mahdi-mohammadi-766262260
+SaminAkbari:
+  name: ثمین اکبری
+  title: کارشناسی ۱۴۰۱
+  image_url: /img/authors/saminakbari.png
+  socials:
+    linkedin: samin-akbari-83583a312
+MahdyarMostashar:
+  name: مهدیار مستشار
+  title: کارشناسی ۱۴۰۲
+  image_url: /img/authors/mahmostashar.png
+  socials:
+    linkedin: mahdyar-mostashar-279aaa287
+    github: MahMosTash
+MohammadAminAbbasfar:
+  name: محمدامین عباسفر
+  title: کارشناسی ۱۴۰۱
+  image_url: /img/authors/maminabbasfar.png
+  socials:
+    linkedin: abbasfar
+FatemehNilforoushan:
+  name: فاطمه نیلفروشان
+  title: کارشناسی ۱۴۰۳
+  image_url: /img/authors/fatemehnilforoushan.png
+  socials:
+    linkedin: fatemeh-nilforoushan-903620325
+AmirHosseinShayan:
+  name: امیرحسین شایان
+  title: کارشناسی ۱۴۰۲
+  image_url: /img/authors/amirhosseinshayan.png
+  socials: {}
+AmirHosseinRavanNakhjavani:
+  name: امیرحسین روان‌نخجوانی
+  title: کارشناسی ۱۴۰۰
+  image_url: /img/authors/amirhosseinravan.png
+  socials:
+    linkedin: amir-ravan
+AynazRahmani:
+  name: آیناز رحمانی
+  title: کارشناسی ۱۴۰۳
+  image_url: /img/authors/aynazrahmani.png
+  socials:
+    linkedin: aynaz-rahmani
+SAhmadMousaviAvval:
+  name: سیداحمد موسوی‌اول
+  title: کارشناسی ۱۴۰۲
+  image_url: /img/authors/sahmadmousaviaval.png
+  socials:
+    github: seyedahmadmosaviawal
+ParisaJalali:
+  name: پریسا جلالی
+  title: کارشناسی ۱۴۰۳
+  image_url: /img/authors/parisajalali.png
+  socials: {}
+MaedehHeydari:
+  name: مائده حیدری
+  title: کارشناسی ۱۴۰۰
+  image_url: /img/authors/maedehheydari.png
+  socials:
+    linkedin: maedeh-heydari-b84613232
+MHasanBayatiani:
+  name: محمدحسن بیاتیانی
+  title: کارشناسی ۱۴۰۱
+  image_url: /img/authors/mhasanbayatiani.png
+  socials:
+    linkedin: mowhby
+OmidHeydari:
+  name: امید حیدری
+  title: کارشناسی ۱۴۰۱
+  image_url: /img/authors/omidheydari.png
+  socials:
+    linkedin: omid-hdr
+ArashMarioriyad:
+  name: آرش ماری‌اوریاد
+  title: کارشناسی ارشد ۱۴۰۱
+  image_url: /img/authors/arashmarioriyad.png
+  socials:
+    linkedin: arash-mari-oriyad
+ArmanTahmasebi:
+  name: آرمان طهماسبی‌زاده
+  title: کارشناسی ۱۴۰۲
+  image_url: /img/authors/armantahmasebi.png
+  socials:
+    linkedin: ostadtahmasb
+Amnam:
+  name: Amnam
+  title: کارشناسی ۱۴XX
+  image_url: /img/authors/amnam.png
+  socials: {}
+AHMZ:
+  name: امیرحسین محمدزاده
+  title: کارشناسی ۱۴۰۲
+  image_url: /img/authors/ahmz.png
+  socials:
+    linkedin: ahmz1833
+    github: ahmz1833
+Amshz:
+  name: امیرمحمد شاهرضایی
+  title: کارشناسی ۱۴۰۱
+  image_url: /img/authors/amshz.png
+  socials:
+    linkedin: amshz
+MohsenPiri:
+  name: محسن پیری
+  title: کارشناسی ارشد ۱۴۰۳
+  image_url: /img/authors/mohsenpiri.png
+  socials:
+    linkedin: mohsen-piri
+AmirHosseinSouri:
+  name: امیرحسین صوری
+  title: کارشناسی ۱۴۰۱
+  image_url: /img/authors/amirhosseinsouri.png
+  socials:
+    linkedin: amirhossein-souri
