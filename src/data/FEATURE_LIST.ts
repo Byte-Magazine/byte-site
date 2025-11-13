@@ -58,7 +58,7 @@ export const featureList = [
     slug: "00000111",
     title: "00000111",
     date: "۱۴۰۴/۰۸/۲۰",
-    imageSrc: "/img/00000111.png",
+    imageSrc: "/img/00000111.jpg",
     description: "شماره هفتم",
     themeColor: "rgba(61, 107, 236, 0.4)",
   },
