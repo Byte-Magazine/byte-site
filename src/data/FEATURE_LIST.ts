@@ -54,7 +54,7 @@ export const featureList = [
     themeColor: "rgba(231,92,249,0.4)",
   },
   {
-    file: "",
+    file: "00000111",
     slug: "00000111",
     title: "00000111",
     date: "۱۴۰۴/۰۸/۲۰",
