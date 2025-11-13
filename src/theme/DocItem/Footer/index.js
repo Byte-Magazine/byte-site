@@ -12,7 +12,7 @@ export default function DocItemFooter() {
   const { editUrl, lastUpdatedAt, lastUpdatedBy, tags } = metadata;
   const canDisplayTagsRow = tags.length > 0;
   const canDisplayEditMetaRow = !!(editUrl || lastUpdatedAt || lastUpdatedBy);
-  const canDisplayFooter = canDisplayTagsRow || canDisplayEditMetaRow;
+  const canDisplayFooter = canDisplayTagsRow || canDisplayEditMetaRow || !no_comments;
   if (!canDisplayFooter) {
     return null;
   }
@@ -43,7 +43,7 @@ export default function DocItemFooter() {
           lastUpdatedBy={lastUpdatedBy}
         />
       )}
-      <GiscusComments />
+      {!no_comments && <GiscusComments />}
     </footer>
   );
 }
