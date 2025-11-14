@@ -83,6 +83,7 @@ const STAFF_SECTION_LIST: StaffSection[] = [
         imageURL: "/img/staff/baghal.png",
         socials: {
           github: "https://github.com/arvinasli",
+          linkedin: "https://www.linkedin.com/in/arvin-baghal-asl-bbb122390/"
         },
       },
     ],
