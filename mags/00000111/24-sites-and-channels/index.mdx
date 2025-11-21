@@ -185,21 +185,21 @@ export const Card = ({ title, desc, link, icon, emoji, color = '#2563eb' }) => {
     return (
         <a href={link} target="_blank" style={{
             display: 'block',
-            border: '1px solid #e2e8f0',
+            border: '1px solid #b6b9bd80',
             borderRadius: '12px',
             padding: '1.5rem',
             textDecoration: 'none',
             color: 'inherit',
             boxShadow: '0 2px 4px rgba(0,0,0,0.05)',
-            transition: 'transform 0.2s ease, box-shadow 0.2s ease'
+            transition: 'all 0.2s ease-in-out'
         }}
            onMouseEnter={(e) => {
-               e.currentTarget.style.transform = 'translateY(-5px)';
-               e.currentTarget.style.boxShadow = '0 10px 15px -3px rgba(0, 0, 0, 0.1)';
+               e.currentTarget.style.boxShadow = '0 10px 15px -3px rgba(0, 0, 0, 0.2)';
+               e.currentTarget.style.borderColor = 'var(--ifm-color-primary-light)';
            }}
            onMouseLeave={(e) => {
-               e.currentTarget.style.transform = 'translateY(0)';
                e.currentTarget.style.boxShadow = '0 2px 4px rgba(0,0,0,0.05)';
+               e.currentTarget.style.borderColor = '#b6b9bd80';
            }}
         >
             <div style={{ display: 'flex', alignItems: 'center', marginBottom: '1rem' }}>
