@@ -67,6 +67,12 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+
+  markdown: {
+    mermaid: true,
+  },
+  themes: ["@docusaurus/theme-mermaid"],
+
   plugins: [
     [
       "@docusaurus/plugin-content-docs",
