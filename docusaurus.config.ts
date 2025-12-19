@@ -81,6 +81,19 @@ const config: Config = {
         showLastUpdateTime: false,
       },
     ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "workshops",
+        path: "workshops",
+        routeBasePath: "workshops",
+        sidebarPath: require.resolve("./sidebarsWorkshops.js"),
+        remarkPlugins: [remarkMath],
+        rehypePlugins: [rehypeKatex],
+        showLastUpdateAuthor: false,
+        showLastUpdateTime: false,
+      },
+    ],
   ],
   stylesheets: [
     {
@@ -106,8 +119,9 @@ const config: Config = {
         src: "img/logo.svg",
       },
       items: [
-        { to: "/codenameh", label: "آرشیو کدنامه", position: "left" },
         { to: "/mags/intro", label: "آرشیو نشریه", position: "left" },
+        { to: "/codenameh", label: "آرشیو کدنامه", position: "left" },
+        { to: "/workshops/git", label: "کارگاه‌ها", position: "left" },
         { to: "/blog", label: "وبلاگ", position: "left" },
         {
           to: "/staff",
