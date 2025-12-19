@@ -222,6 +222,37 @@ git remote add origin https://github.com/Byte-Magazine/byte-site
 این دستور فقط اتصال را برقرار می‌کند و فایل‌ها را به سرور ارسال نمی‌کند. برای ارسال فایل‌ها باید از دستور `git push` استفاده کنید.
 :::
 
+### مشاهده Remote‌ها
+
+برای مشاهده لیست remote‌های متصل شده:
+
+```bash
+git remote
+```
+
+برای مشاهده URL کامل remote‌ها:
+
+```bash
+git remote -v
+```
+
+### تغییر URL Remote
+
+برای تغییر آدرس یک remote موجود از دستور `git remote set-url` استفاده می‌کنیم:
+
+```bash
+git remote set-url <NAME> <NEW_URL>
+```
+
+**مثال:**
+```bash
+git remote set-url origin https://github.com/username/new-repository.git
+```
+
+:::tip
+این دستور زمانی مفید است که آدرس remote تغییر کرده یا می‌خواهید از HTTPS به SSH (یا برعکس) تغییر دهید.
+:::
+
 ### git clone
 
 برای دریافت یک پروژه از سرور و ساخت کپی محلی از آن، از دستور `git clone` استفاده می‌کنیم:
@@ -236,14 +267,18 @@ git clone <REPOSITORY_URL>
 git clone https://github.com/Byte-Magazine/byte-site
 ```
 
-یا با نام دلخواه:
-
+**با نام دلخواه:**
 ```bash
 git clone https://github.com/Byte-Magazine/byte-site my-test-project
 ```
 
+**با SSH:**
+```bash
+git clone git@github.com:Byte-Magazine/byte-site.git
+```
+
 :::info
-با `clone` کردن یک پروژه، تمام کامیت‌ها و تاریخچه پروژه روی سیستم شما کپی می‌شود.
+با `clone` کردن یک پروژه، تمام کامیت‌ها و تاریخچه پروژه روی سیستم شما کپی می‌شود و به صورت خودکار remote به نام `origin` تنظیم می‌شود.
 :::
 
 ## چرخه حیات وضعیت فایل‌ها
@@ -536,3 +571,91 @@ target/
 :::info
 برای الگوهای بیشتر و پیش‌ساخته، می‌توانید از [gitignore.io](https://www.toptal.com/developers/gitignore) استفاده کنید.
 :::
+
+
+## دستورات pull و push و fetch
+
+این دستورات برای همگام‌سازی پروژه محلی با ریپازیتوری راه‌دور استفاده می‌شوند.
+
+### git push
+
+برای ارسال تغییرات محلی به سرور از دستور `git push` استفاده می‌کنیم:
+
+```bash
+git push <REPOSITORY> <BRANCH>
+```
+
+**مثال:**
+```bash
+git push origin main
+```
+
+یا به صورت ساده:
+```bash
+git push
+```
+
+:::tip
+در اولین push، از پرچم `-u` استفاده کنید تا ارتباط بین branch محلی و remote برقرار شود:
+```bash
+git push -u origin main
+```
+:::
+
+### git pull
+
+برای دریافت و اعمال تغییرات از سرور به پروژه محلی از دستور `git pull` استفاده می‌کنیم:
+
+```bash
+git pull <REPOSITORY> <BRANCH>
+```
+
+**مثال:**
+```bash
+git pull origin main
+```
+
+یا به صورت ساده:
+```bash
+git pull
+```
+
+این دستور تغییرات را دریافت کرده و به صورت خودکار با پروژه محلی merge می‌کند.
+
+### git fetch
+
+برای دریافت تغییرات از سرور **بدون merge کردن** از دستور `git fetch` استفاده می‌کنیم:
+
+```bash
+git fetch <REPOSITORY>
+```
+
+**مثال:**
+```bash
+git fetch origin
+```
+
+:::info
+`git fetch` فقط تغییرات را دانلود می‌کند و فایل‌های محلی را تغییر نمی‌دهد. برای اعمال تغییرات باید از `git merge` استفاده کنید.
+:::
+
+### تفاوت pull و fetch
+
+| دستور | کارکرد |
+|-------|--------|
+| `git pull` | دریافت + merge خودکار |
+| `git fetch` | فقط دریافت (بدون merge) |
+
+**مزایای fetch:**
+- می‌توانید قبل از merge، تغییرات را بررسی کنید
+- کنترل بیشتری روی merge دارید
+- می‌توانید تغییرات را در زمان مناسب merge کنید
+
+
+:::warning
+قبل از push، همیشه ابتدا `git pull` را اجرا کنید تا از همگام بودن با سرور اطمینان حاصل کنید.
+:::
+
+<div style={{ textAlign: "center", width: "70%", marginInline: "auto" }}>
+  <div style={{}}>![](./images/image.png)</div>
+</div>
