@@ -395,6 +395,7 @@ git tag <TAG_NAME>
 ```
 
 **مثال:**
+
 ```bash
 git tag v1.0
 ```
@@ -407,6 +408,7 @@ git tag -a <TAG_NAME> -m "<MESSAGE>"
 ```
 
 **مثال:**
+
 ```bash
 git tag -a v1.0 -m "Release version 1.0"
 ```
@@ -414,11 +416,13 @@ git tag -a v1.0 -m "Release version 1.0"
 ### مشاهده Tag‌ها
 
 **مشاهده لیست تمام tag‌ها:**
+
 ```bash
 git tag
 ```
 
 **جستجو در tag‌ها با الگو:**
+
 ```bash
 git tag -l "v1.*"
 ```
@@ -434,6 +438,7 @@ git tag -a <TAG_NAME> -m "<MESSAGE>" <COMMIT_HASH>
 ```
 
 **مثال:**
+
 ```bash
 git tag -a first -m "First commit tag" 615b64e
 ```
@@ -442,7 +447,92 @@ git tag -a first -m "First commit tag" 615b64e
 می‌توانید از چند کاراکتر اول hash استفاده کنید، به شرطی که یکتا باشد.
 :::
 
-
 :::info
 Tag‌ها در `git log` نمایش داده می‌شوند و می‌توانید با آن‌ها به راحتی به نسخه‌های خاص پروژه دسترسی داشته باشید.
+:::
+
+## فایل gitignore.
+
+فایل `.gitignore` برای نادیده گرفتن فایل‌ها و دایرکتوری‌های خاص توسط گیت استفاده می‌شود. این فایل معمولاً در روت پروژه قرار می‌گیرد.
+
+**موارد استفاده:**
+
+- فایل‌های تولید شده توسط IDE (مثل VSCode)
+- فایل‌های مهم پروژه (مثل `.env`)
+- فایل‌های تولید شده از build پروژه
+
+### ساخت فایل gitignore.
+
+در روت پروژه یک فایل با نام `.gitignore` بسازید و قوانین دلخواه خود را در آن بنویسید:
+
+```
+file1.txt
+/dir1
+
+/dir2/*.cpp
+
+*.env
+```
+
+### قوانین مهم
+
+**آدرس‌دهی از روت:**
+
+- `/file.txt` → فقط فایل در روت پروژه
+- `file.txt` → فایل در هر جای پروژه
+
+**Wildcards:**
+
+- `*` → صفر یا چند کاراکتر (غیر از `/`)
+- `**` → هر تعداد دایرکتوری
+
+**مثال‌ها:**
+
+```
+*.env
+
+/dir1/file.txt
+
+/dir1/**/file.txt
+
+# don't ignore this file
+!/dir1/file.txt
+```
+
+### مثال‌های رایج
+
+**برای پروژه‌های Node.js:**
+
+```
+node_modules/
+.env
+*.log
+.DS_Store
+```
+
+**برای پروژه‌های Python:**
+
+```
+__pycache__/
+*.pyc
+venv/
+.env
+.DS_Store
+```
+
+**برای پروژه‌های Java:**
+
+```
+*.class
+target/
+.idea/
+.DS_Store
+```
+
+:::tip
+پس از ساخت یا تغییر `.gitignore`، فایل‌های قبلاً tracked شده را با `git rm --cached` حذف کنید تا قوانین جدید اعمال شوند.
+:::
+
+:::info
+برای الگوهای بیشتر و پیش‌ساخته، می‌توانید از [gitignore.io](https://www.toptal.com/developers/gitignore) استفاده کنید.
 :::
