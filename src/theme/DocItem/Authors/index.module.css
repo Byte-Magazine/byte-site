@@ -71,6 +71,7 @@
 @media screen and (min-width: 800px) {
   .docAuthors {
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 4rem;
   }
 }

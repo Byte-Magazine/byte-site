@@ -19,18 +19,20 @@ function useSyntheticTitle() {
 
 export default function DocItemContent({ children }) {
   const syntheticTitle = useSyntheticTitle();
+  const { frontMatter } = useDoc();
+  const hideAuthorsInHeader = frontMatter?.hide_authors_in_header === true;
 
   return (
     <div className={clsx(ThemeClassNames.docs.docMarkdown, "markdown")}>
       {syntheticTitle ? (
         <header>
           <Heading as="h1">{syntheticTitle}</Heading>
-          <DocItemAuthors />
+          {!hideAuthorsInHeader && <DocItemAuthors />}
           <MDXContent>{children}</MDXContent>
         </header>
       ) : (
         <>
-          <DocItemAuthors />
+          {!hideAuthorsInHeader && <DocItemAuthors />}
           <MDXContent>{children}</MDXContent>
         </>
       )}
