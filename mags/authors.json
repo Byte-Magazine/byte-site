@@ -501,5 +501,21 @@
     "socials": {
       "linkedin": "https://www.linkedin.com/in/amirhossein-souri/"
     }
+  },
+  "AliAlmasi": {
+    "name": "علی الماسی",
+    "title": "کارشناسی ۱۴۰۳",
+    "image_url": "/img/authors/alialmasi.jpg",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/ali-almasi-9277a5385/",
+      "github": "https://github.com/AliAlmasiZ"
+    }
+  },
+  "MobinRavan": {
+    "name": "مبین روان‌نخجوانی",
+    "title": "کارشناسی ۱۴۰۲",
+    "image_url": "/img/authors/mobinravan.png",
+    "socials": {
+    }
   }
 }
