@@ -3,8 +3,6 @@ title: "اصلاح خطاها و نجات"
 description: "چگونه اشتباهات گیت را جبران کنیم؟ از اصلاح آخرین کامیت تا بازگشت به گذشته و نجات کدهای گم‌شده."
 ---
 
-import Tooltip from "@site/src/components/Tooltip";
-
 # اصلاح خطاها و نجات (Error Correction)
 
 همه ما اشتباه می‌کنیم. خوشبختانه گیت تقریباً برای هر اشتباهی یک راه بازگشت دارد. در این بخش یاد می‌گیریم چگونه خرابکاری‌ها را تمیز کنیم، فایل‌های حذف شده را برگردانیم و حتی اگر تاریخچه را پاک کردیم، آن را بازیابی کنیم.
@@ -154,22 +152,22 @@ git rm --cached <file>
 دستور `git log` بسیار قدرتمندتر از نمایش ساده لیست کامیت‌هاست.
 
 *   **نمایش تغییرات هر کامیت:**
-    ```bash
-    git log -p
-    ```
+```bash
+git log -p
+```
 *   **نمایش خلاصه (کدام فایل‌ها تغییر کردند):**
-    ```bash
-    git log --stat
-    ```
+```bash
+git log --stat
+```
 *   **جستجوی تغییرات کد (Pickaxe):**
     اگر دنبال کامیتی می‌گردید که در آن تابع `calculateTax` اضافه یا حذف شده است:
-    ```bash
-    git log -S "calculateTax"
-    ```
+```bash
+git log -S "calculateTax"
+```
 *   **فیلتر بر اساس نویسنده یا زمان:**
-    ```bash
-    git log --author="Ali" --since="2 weeks ago"
-    ```
+```bash
+git log --author="Ali" --since="2 weeks ago"
+```
 
 ## ۶. ماشین زمان و نجات نهایی (`reflog`)
 
@@ -207,17 +205,17 @@ git reset --hard 9876543
 
 **راه حل:**
 1.  یک برنچ جدید از همین نقطه بسازید (تا کامیت شما حفظ شود):
-    ```bash
-    git branch feature
-    ```
+```bash
+git branch feature
+```
 2.  برنچ فعلی (`main`) را به عقب برگردانید:
-    ```bash
-    git reset --hard HEAD~1
-    ```
+```bash
+git reset --hard HEAD~1
+```
 3.  به برنچ جدید بروید:
-    ```bash
-    git switch feature
-    ```
+```bash
+git switch feature
+```
 
 ### سناریو ۲: یک برنچ را اشتباهی حذف کردم!
 دستور `git branch -D` را زدید و ناگهان یادتان آمد که آن برنچ را لازم داشتید.
@@ -226,6 +224,6 @@ git reset --hard 9876543
 1.  با `git reflog` آخرین جایی که آن برنچ بود را پیدا کنید (معمولاً پیامی مثل `moving from feature to main` می‌بینید).
 2.  آن کامیت را پیدا کنید (مثلاً `a1b2c3d`).
 3.  برنچ را دوباره بسازید:
-    ```bash
-    git branch feature a1b2c3d
-    ```
+```bash
+git branch feature a1b2c3d
+```
