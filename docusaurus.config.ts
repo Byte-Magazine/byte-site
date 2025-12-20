@@ -98,6 +98,7 @@ const config: Config = {
         rehypePlugins: [rehypeKatex],
         showLastUpdateAuthor: false,
         showLastUpdateTime: false,
+        editUrl: "https://github.com/Byte-Magazine/byte-site/tree/main/",
       },
     ],
   ],
