@@ -84,3 +84,8 @@ span.katex {
 .font-snapp {
   font-family: "Snapp", Dana, Vazirmatn;
 }
+
+code {
+  unicode-bidi: isolate;
+  direction: rtl;
+}

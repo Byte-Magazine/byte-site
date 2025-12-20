@@ -67,6 +67,12 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+
+  markdown: {
+    mermaid: true,
+  },
+  themes: ["@docusaurus/theme-mermaid"],
+
   plugins: [
     [
       "@docusaurus/plugin-content-docs",
@@ -79,6 +85,20 @@ const config: Config = {
         rehypePlugins: [rehypeKatex],
         showLastUpdateAuthor: false,
         showLastUpdateTime: false,
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "workshops",
+        path: "workshops",
+        routeBasePath: "workshops",
+        sidebarPath: require.resolve("./sidebarsWorkshops.js"),
+        remarkPlugins: [remarkMath],
+        rehypePlugins: [rehypeKatex],
+        showLastUpdateAuthor: false,
+        showLastUpdateTime: false,
+        editUrl: "https://github.com/Byte-Magazine/byte-site/tree/main/",
       },
     ],
   ],
@@ -106,8 +126,9 @@ const config: Config = {
         src: "img/logo.svg",
       },
       items: [
-        { to: "/codenameh", label: "آرشیو کدنامه", position: "left" },
         { to: "/mags/intro", label: "آرشیو نشریه", position: "left" },
+        { to: "/codenameh", label: "آرشیو کدنامه", position: "left" },
+        { to: "/workshops/git", label: "کارگاه‌ها", position: "left" },
         { to: "/blog", label: "وبلاگ", position: "left" },
         {
           to: "/staff",
