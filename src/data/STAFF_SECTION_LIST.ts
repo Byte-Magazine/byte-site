@@ -161,6 +161,39 @@ const STAFF_SECTION_LIST: StaffSection[] = [
           github: "https://github.com/seyedahmadmosaviawal",
         },
       },
+      {
+        name: "فاطمه نیلفروشان",
+        title: "کارشناسی ۱۴۰۳",
+        imageURL: "/img/authors/fatemehnilforoushan.png",
+        socials: {
+          linkedin: "https://www.linkedin.com/in/fatemeh-nilforoushan-903620325/"
+        }
+      },
+      {
+        name: "نرگس کاری",
+        title: "کارشناسی ۱۴۰۲",
+        imageURL: "/img/staff/nargesKari.jpg",
+        socials: {
+          linkedin: "https://www.linkedin.com/in/narges-kari-dolatabadi-a30348291",
+          github:"https://github.com/NargesKari"
+        }
+      },
+      {
+        name: "امیررضا جعفری",
+        title: "کارشناسی ۱۴۰۲",
+        imageURL: "/img/staff/jafar.png",
+        socials: {
+        }
+      },
+      {
+        name: "محمدپارسا آرانی",
+        title: "کارشناسی ۱۴۰۳",
+        imageURL: "/img/staff/arani.png",
+        socials: {
+          linkedin:"https://www.linkedin.com/in/mohammad-parsa-arani-397072382",
+          github:"https://github.com/MParsa-0684"
+        }
+      }
     ],
   },
   {
