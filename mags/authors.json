@@ -517,5 +517,17 @@
     "image_url": "/img/authors/mobinravan.png",
     "socials": {
     }
+  },
+  "SteveFeldstein": {
+    "name": "Steve Feldstein",
+    "title": "Carnegie Endowment for International Peace",
+    "image_url": "/img/authors/SteveFeldstein.png",
+    "socials": {}
+  },
+  "SorenaKia": {
+    "name": "سورنا کیا",
+    "title": "کارشناسی ۱۴۰۳",
+    "image_url": "/img/authors/SorenaKia.png",
+    "socials": {}
   }
 }
