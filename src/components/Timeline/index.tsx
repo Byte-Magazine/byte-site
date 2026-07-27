@@ -48,7 +48,7 @@ const Timeline: React.FC = () => {
               <p className={"font-snapp"}>بایت</p>
             </div>
             <a
-              href={`https://s3.byte-mag.ir/mags/${feature.title}.pdf`}
+              href={`https://byte-mag.s3.ir-thr-at1.arvanstorage.ir/mags/${feature.title}.pdf`}
               className={`${shared.btn} ${shared.primaryBtn}`}
               style={{ padding: "0.2rem 0.6rem", textDecoration: "none" }}
               target="_blank"

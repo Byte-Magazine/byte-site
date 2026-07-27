@@ -12,7 +12,7 @@ export function Feature({
   slug = "",
   file = "",
 }) {
-  const file_url = `https://s3.byte-mag.ir/mags/${file}.pdf`;
+  const file_url = `https://byte-mag.s3.ir-thr-at1.arvanstorage.ir/mags/${file}.pdf`;
   return (
     <div
       className={`col col--3 ${styles.cardWrapper}`}
