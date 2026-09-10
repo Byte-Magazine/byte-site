@@ -1,0 +1,38 @@
+# This is the backend. Tell it to use your GitHub repo.
+backend:
+  name: github
+  repo: Byte-Magazine/byte-site # Your repo
+  branch: main # Or whatever your main branch is
+  # This tells the CMS to create Pull Requests for review
+  open_authoring: true
+
+# This defines the content types ("Collections") your writers can create.
+# I'll add one for your "mags" folder. You can copy/paste it for "blog".
+collections:
+  - name: "magazine" # Name in the CMS UI
+    label: "Magazine Articles" # Label in the UI
+    folder: "mags" # The folder in your repo where files are saved
+    create: true # Allow users to create new articles
+    slug: "{{slug}}" # How to name the file (from the title)
+    extension: "mdx" # You want MDX!
+    format: "frontmatter" # It's MDX with YAML frontmatter
+
+    # These are the fields your writers will see in the editor.
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      # You can add fields for your authors, tags, etc.
+      # Example for an author:
+      - { label: "Author", name: "author", widget: "string" }
+      # And most importantly, the article body:
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # You would add another collection for your 'blog' folder here
+  # - name: "blog"
+  #   label: "Blog Posts"
+  #   folder: "blog"
+  #   ... (etc)
+
+# This is required for the CMS to run.
+media_folder: "static/img" # Where to upload images
+public_folder: "/img" # The public URL path for those images
